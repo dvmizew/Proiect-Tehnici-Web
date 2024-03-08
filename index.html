@@ -8,6 +8,8 @@
     <meta name="description" content="Magazin de conectica, Adaptoare, Retelistica. Transport Gratuit la comenzi de peste 50 de lei.">
     <meta name="author" content="Daniel Radu">
 
+    <link rel="stylesheet" href="resurse/css/stil.css" type="text/css">
+
     <link rel="apple-touch-icon" sizes="180x180" href="./resurse/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./resurse/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./resurse/favicon/favicon-16x16.png">
@@ -23,56 +25,92 @@
         <h1>Magazin de conectică</h1>
         <nav>
             <ul>
-                <!-- test linkuri -->
-                <!-- <li><a href="https://www.google.ro">Google</a></li> -->
-                <!-- <li><a href="pagina2.html">Pagina 2</a></li> -->
-                <li>Acasa
+                <li>Acasă
                     <ul>
                         <li><a href="#welcome">Welcome</a></li>
-                        <li><a href="#Promotii">Promotii</a></li>
+                        <li><a href="#Promotii">Promoții</a></li>
                     </ul>
                 </li>
                 <li>Produse
+                    <picture>
+                        <source srcset="./resurse/imagini/hub.jpg" media="(max-width: 700px)">
+                        <source srcset="./resurse/imagini/multi.jpg" media="(max-width: 300px)">
+                        <img src="./resurse/imagini/usb.jpg" alt="usb" width="500px" height="500px" title="USB">
+                    </picture>
+                    <figcaption>Cablu USB</figcaption>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="welcome">
-            <h2>Bine ati venit!</h2>
+            <h2>Bine ați venit!</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem orci, ullamcorper non fermentum a, auctor et diam. 
-                Morbi vel nunc quis lacus finibus ultricies in non odio. Ut mattis bibendum mauris sed condimentum.
-                Vivamus a turpis finibus, faucibus nisi sit amet, tincidunt nibh. 
-                Nullam pharetra, leo et dignissim vehicula, dolor massa commodo nunc, sed volutpat lacus mi quis justo. 
-                Cras sit amet interdum risus, id dignissim orci. Vivamus ac metus eget lacus porta vulputate eu venenatis diam. 
-                Aliquam blandit lacus ipsum, ut maximus erat tempor id. Sed ut leo maximus, pretium elit non, tristique massa. 
-                Aliquam erat volutpat. Vivamus ac felis id lorem maximus pharetra et vel lacus.
-                <img src="resurse/imagini/iconita.png" alt="">
+                Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la numărul de telefon afișat mai jos.
+                <br>
+                <img src="resurse/imagini/iconita.png" alt="iconita">
             </p>
         </section>
         <section id="Promotii">
             <h2>Promotii</h2>
+            <!-- <abbr title=""></abbr> -->
             <p>
-                Ut vel velit ac odio vulputate volutpat. Sed luctus, augue ac sollicitudin fringilla, lectus sapien rutrum risus, sit amet dignissim sapien neque eget augue. Donec elementum justo ut mauris facilisis vestibulum. Duis hendrerit sollicitudin mattis. Donec nec ipsum vel est vehicula aliquam ut eget lacus. Etiam fringilla vitae risus non tincidunt. Nulla cursus elit at auctor sodales. Cras eu mi ligula. Sed purus sapien, viverra vitae vulputate non, efficitur nec augue. In pellentesque nulla sed nibh bibendum, eget posuere felis consectetur. Pellentesque consectetur enim at euismod gravida. Morbi facilisis luctus facilisis. Cras nec vestibulum justo. Curabitur aliquam accumsan sapien at convallis. 
-                Vestibulum rutrum, turpis vitae lobortis lacinia, ex sem finibus mi, ac dapibus sapien leo quis enim.
+                Promoțiile noastre sunt valabile în limita stocului disponibil.
+                <div class="videos-promotii">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiwaxlttWow?si=gZ7SN7EZlAm9iXaV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lmzkO4_z8lY?si=OoX4vLnXQ3ksF4qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <br>
+                    <details><summary>Rețelistică</summary>
+                        <ul>TP-Link</ul>
+                        <ul>Ubiquiti</ul>
+                        <ul>Netgear</ul>
+                    </details>
+                    <details> <summary>Accesorii</summary>
+                        <ul>Mouse</ul>
+                        <ul>Tastaturi</ul>
+                        <ul>Căști</ul>
+                    </details>
+                </div>
             </p>
             <section>
-                <h3>Oferte de primavara</h3>
+                <h3>Oferte de primavară</h3>
                 <p>
-                    Cras et blandit lacus, id pellentesque arcu. Mauris dignissim mi sit amet felis bibendum, eget eleifend ante egestas. Sed non lectus quis sem egestas dapibus sed eget nisi. Ut ut felis metus. Fusce feugiat sapien vitae elit placerat, vitae finibus ante placerat. Praesent maximus lectus in vulputate iaculis. Integer sit amet blandit nisi, et vestibulum massa. Integer at sem vitae lectus rhoncus scelerisque. Aliquam risus nisl, hendrerit sed fermentum quis, hendrerit non urna. Etiam mattis nibh erat, in consectetur felis maximus sit amet. Curabitur eget mi efficitur, venenatis mauris et, condimentum dolor. Maecenas at lectus vel erat pharetra gravida ut quis metus. Cras malesuada ante in ipsum feugiat tristique. Duis in tortor faucibus augue condimentum lobortis. Quisque scelerisque ligula ac laoreet egestas. Ut eget justo at sem venenatis auctor luctus et tellus.
+                    Primăvara este anotimpul în care natura se trezește la viață. În această perioadă, vă oferim o gamă variată de <strong>produse</strong> la prețuri reduse. De la cabluri, <abbr title="adaptoare">microSD la SD, hub-uri USB etc.</abbr>, până la echipamente de retelistica, toate produsele sunt la reducere.
+                </p>
+                <p><dfn>Căști audio</dfn>
+                    <ul>
+                        <li>Samsung Galaxy Buds 2</li>
+                        <li>Apple AirPods Pro</li>
+                        <li>Sony WH-1000XM4</li>
+                    </ul>
                 </p>
             </section>
             <section>
                 <h3>Oferte de weekend</h3>
                 <p>
-                    Integer vel elit facilisis, finibus tellus eu, porta mauris. Duis tristique euismod velit at euismod. Integer tristique egestas aliquam. Fusce urna sapien, fermentum ut sodales quis, lobortis id libero. Aliquam luctus quam ac mauris fermentum, eget accumsan nunc pellentesque. Etiam maximus velit finibus, vehicula diam a, convallis felis. Praesent ante nunc, accumsan sed tellus eget, placerat condimentum quam. Etiam lobortis efficitur nisl, et ultricies neque sollicitudin vel. Ut non placerat dui, in ultrices eros. Integer metus ligula, convallis id sem in, sodales ultricies est. Phasellus ac sapien sed lectus maximus efficitur.
+                    Weekend-ul este momentul în care ne relaxăm și ne bucurăm de timpul liber. De aceea, vă oferim o gamă variată de produse la prețuri reduse. De la cabluri, adaptoare, până la echipamente de retelistica, toate produsele sunt la reducere. Transportul este gratuit la comenzi de peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la numărul de telefon afișat mai jos.
                 </p>
             </section>
         </section>
     </main>
     <footer>
-
+        <a href="https://www.google.ro" target="_blank">Google</a>
+        <br>
+        <a href="#" title="mergi sus" id="link-top">Mergi sus</a>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pLdfq0Imo48?si=P44wCHvqMCp5dRCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <a href="./resurse/imagini/iconita.png" download>DOWNLOAD ICONIȚĂ SITE</a>
+        <address>
+            Strada Mea, Nr. 1, București, România
+            <a href="mailto:dvmiradu@gmail.com">Adresă Email contact</a>
+            <a href="tel:+4074517098">Număr telefon contact</a>
+            <a href="https://wa.me/+40745170698?text=urlencodedtext">Link WhatsApp contact</a>
+        </address>
+        <p><small>Copyright &copy;
+            <time datetime="2024-08-04">4 august 2024</time>
+        </small></p>
     </footer>
 </body>
 </html>
