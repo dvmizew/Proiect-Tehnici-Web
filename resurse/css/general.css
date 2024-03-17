@@ -1,0 +1,99 @@
+#link-top {
+    position: fixed;
+    bottom: 0.3em;
+    opacity: 0.5;
+    left: 0.3em;
+    width: 3rem;
+    box-sizing: border-box;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 5px solid var(--culoare-rosu);
+    border-style: dashed;
+    border-radius: 50%;
+    background: var(--culoare-background-1);
+    transition: transform 1s linear;
+    background: radial-gradient(circle, var(--culoare-background-1) 0%, var(--culoare-background-2) 100%);
+}
+
+#link-top:hover {
+    transform: rotateZ(90deg);
+    opacity: 1;
+}
+
+#sageata span {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    color: var(--culoare-rosu);
+    font-size: 2rem;
+    font-style: bold;
+}
+
+#sageata span:hover {
+    animation: pulse 1s infinite alternate;
+    transition-duration: 500ms;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+#table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#tab-orar {
+    border-spacing: 2px;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: var(--culoare-text);
+}
+
+#tab-orar tr:hover {
+    background-color: var(--culoare-highlight);
+    transition: background-color 0.3s ease;
+}
+
+#tab-orar td,
+#tab-orar th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#tab-orar th {
+    background-color: var(--culoare-background-2);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#tab-orar tbody td:nth-child(odd) {
+    background-color: var(--culoare-coloana1);
+}
+
+#tab-orar tbody td:nth-child(even) {
+    background-color: var(--culoare-coloana2);
+}
+
+@media (max-width: 600px) {
+    #tab-orar {
+        font-size: 0.8em;
+    }
+}
+
+#tab-orar caption {
+    caption-side: bottom;
+}
