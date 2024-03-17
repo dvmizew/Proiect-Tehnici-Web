@@ -12,6 +12,15 @@ body {
     padding-left: var(--dim-spatiere);
     padding-right: var(--dim-spatiere);
     background-color: var(--culoare-background-1);
+    background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
+}
+
+.section {
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: scale(1.05);
 }
 
 p {
