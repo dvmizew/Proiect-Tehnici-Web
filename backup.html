@@ -37,50 +37,86 @@
                     </ul>
                 </li>
                 <li>Produse
-                    <!-- <picture>
+                    <picture>
                         <source srcset="./resurse/imagini/hub.jpg" media="(max-width: 700px)">
                         <source srcset="./resurse/imagini/multi.jpg" media="(max-width: 300px)">
                         <img src="./resurse/imagini/usb.jpg" alt="usb" width="500px" height="500px" title="USB">
                     </picture>
-                    <figcaption>Cablu USB</figcaption> -->
+                    <figcaption>Cablu USB</figcaption>
                 </li>
             </ul>
         </nav>
     </header>
     <main id="grid-pagina">
-        <!-- <section id="welcome">
-            <h2>Bine ați venit!</h2>
-            <p>
-                Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De
-                la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de
-                peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
-                numărul de telefon afișat mai jos.
-                <br>
-                <img src="resurse/imagini/iconita.png" alt="iconita">
-            </p> -->
+        <div id="grid-pagina">
             <section id="welcome">
-                <div class="z-pattern-container">
-                    <div class="z-pattern-image">
-                        <img src="resurse/imagini/iconita.png" alt="Imagine atractivă">
-                    </div>
-                    <div class="z-pattern-text">
-                        <h2>Bine ați venit!</h2>
-                        Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De
-                        la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de
-                        peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
-                        numărul de telefon afișat mai jos.
-                    </div>
-                </div>
+                <h2>Bine ați venit!</h2>
+                <p>
+                    Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De
+                    la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de
+                    peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
+                    numărul de telefon afișat mai jos.
+                    <br>
+                    <img src="resurse/imagini/iconita.png" alt="iconita">
+                </p>
             </section>
-            
-        </section>
-        <section id="calendar">
-            <h2>Calendar</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest"
-                style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </section>
-        
-        <section id="tabel">
+            <section id="Promotii">
+                <h2>Promotii</h2>
+                <p>
+                    Promoțiile noastre sunt valabile în limita stocului disponibil.
+                <div class="videos-promotii">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiwaxlttWow?si=gZ7SN7EZlAm9iXaV"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lmzkO4_z8lY?si=OoX4vLnXQ3ksF4qa"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <br>
+                    <details>
+                        <summary>Rețelistică</summary>
+                        <ul>TP-Link</ul>
+                        <ul>Ubiquiti</ul>
+                        <ul>Netgear</ul>
+                    </details>
+                    <details>
+                        <summary>Accesorii</summary>
+                        <ul>Mouse</ul>
+                        <ul>Tastaturi</ul>
+                        <ul>Căști</ul>
+                    </details>
+                </div>
+                </p>
+                <section id="oferte-primavara">
+                    <h3>Oferte de primavară</h3>
+                    <p>
+                        Primăvara este anotimpul în care natura se trezește la viață. În această perioadă, vă oferim o
+                        gamă variată de <strong>produse</strong> la prețuri reduse. De la cabluri, <abbr
+                            title="adaptoare">microSD la SD, hub-uri USB etc.</abbr>, până la echipamente de
+                        retelistica, toate produsele sunt la reducere.
+                    </p>
+                    <p><dfn>Căști audio</dfn>
+                    <ul>
+                        <li>Samsung Galaxy Buds 2</li>
+                        <li>Apple AirPods Pro</li>
+                        <li>Sony WH-1000XM4</li>
+                    </ul>
+                    </p>
+                </section>
+                <section id="oferte-weekend">
+                    <h3>Oferte de weekend</h3>
+                    <p>
+                        Weekend-ul este momentul în care ne relaxăm și ne bucurăm de timpul liber. De aceea, vă oferim o
+                        gamă variată de produse la prețuri reduse. De la cabluri, adaptoare, până la echipamente de
+                        retelistica, toate produsele sunt la reducere. Transportul este gratuit la comenzi de peste 50
+                        de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la numărul
+                        de telefon afișat mai jos.
+                    </p>
+                </section>
+            </section>
+            <section id="tabel">
             <div id="table-container">
                 <table id="tab-orar">
                     <thead>
@@ -159,56 +195,8 @@
                     </tfoot>
                 </table>
             </div>
-        </section>
-        <section id="anunturi">
-            <h2>Anunțuri</h2>
-            <p>Rămâneți la curent cu cele mai recente anunțuri:</p>
-            <ul>
-                <li>Noi produse adăugate în stocul nostru</li>
-                <li>Oferte speciale și reduceri</li>
-                <li>Evenimente și promoții viitoare</li>
-            </ul>
-        </section>
-        
-        <section id="promotii">
-            <h2>Promotii</h2>
-            <p>Consultați promoțiile noastre în curs:</p>
-            <ul>
-                <li>Cumpără unul, primește unul gratuit la articolele selectate</li>
-                <li>Reduceri la comenzi en-gros</li>
-                <li>Oferte cu durată limitată la produse populare</li>
-            </ul>
-        </section>
-        
-        <section id="info-server">
-            <h2>Info Server</h2>
-            <p>Aflați mai multe despre specificațiile și capacitățile serverului nostru:</p>
-            <ul>
-                <li>Prelucrare rapidă a datelor</li>
-                <li>Stocare securizată a datelor</li>
-                <li>Monitorizare și suport server 24/7</li>
-            </ul>
-        </section>
-        
-        <section id="lista-useri">
-            <h2>Lista Useri</h2>
-            <p>Vizualizați lista utilizatorilor înregistrați:</p>
-            <ul>
-                <li>User 1</li>
-                <li>User 2</li>
-                <li>User 3</li>
-            </ul>
-        </section>
-        
-        <section id="stats">
-            <h2>Statistici</h2>
-            <p>Explorați statistici despre site-ul nostru:</p>
-            <ul>
-                <li>Numărul total de vizitatori</li>
-                <li>Produsele cele mai vizualizate</li>
-                <li>Paginile cu cea mai bună performanță</li>
-            </ul>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
         <a href="https://www.google.ro" target="_blank">Google</a>
