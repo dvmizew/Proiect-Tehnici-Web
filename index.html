@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="resurse/css/stil.css" type="text/css">
     <link rel="stylesheet" href="resurse/css/layout.css" type="text/css">
 
+    <script src="resurse/js/navbar.js"></script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="./resurse/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./resurse/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./resurse/favicon/favicon-16x16.png">
@@ -28,22 +30,15 @@
 <body>
     <header>
         <h1>Magazin de conectică</h1>
-        <nav>
+        <nav id="navbar">
             <ul>
-                <li>Acasă
+                <li><a href="#welcome">Acasă</a>
                     <ul>
                         <li><a href="#welcome">Welcome</a></li>
-                        <li><a href="#Promotii">Promoții</a></li>
+                        <li><a href="#promotii">Promoții</a></li>
                     </ul>
                 </li>
-                <li>Produse
-                    <!-- <picture>
-                        <source srcset="./resurse/imagini/hub.jpg" media="(max-width: 700px)">
-                        <source srcset="./resurse/imagini/multi.jpg" media="(max-width: 300px)">
-                        <img src="./resurse/imagini/usb.jpg" alt="usb" width="500px" height="500px" title="USB">
-                    </picture>
-                    <figcaption>Cablu USB</figcaption> -->
-                </li>
+                <li><a href="#produse">Produse</a></li>
             </ul>
         </nav>
     </header>
@@ -58,28 +53,29 @@
                 <br>
                 <img src="resurse/imagini/iconita.png" alt="iconita">
             </p> -->
-            <section id="welcome">
-                <div class="z-pattern-container">
-                    <div class="z-pattern-image">
-                        <img src="resurse/imagini/iconita.png" alt="Imagine atractivă">
-                    </div>
-                    <div class="z-pattern-text">
-                        <h2>Bine ați venit!</h2>
-                        Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De
-                        la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de
-                        peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
-                        numărul de telefon afișat mai jos.
-                    </div>
+        <section id="welcome">
+            <div class="z-pattern-container">
+                <div class="z-pattern-image">
+                    <img src="resurse/imagini/iconita.png" alt="Imagine atractivă">
                 </div>
-            </section>
-            
+                <div class="z-pattern-text">
+                    <h2>Bine ați venit!</h2>
+                    Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet. De
+                    la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi de
+                    peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
+                    numărul de telefon afișat mai jos.
+                </div>
+            </div>
+        </section>
+
         </section>
         <section id="calendar">
             <h2>Calendar</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest"
-                style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest"
+                style="border: 0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
         </section>
-        
+
         <section id="tabel">
             <div id="table-container">
                 <table id="tab-orar">
@@ -168,8 +164,12 @@
                 <li>Oferte speciale și reduceri</li>
                 <li>Evenimente și promoții viitoare</li>
             </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UXFtqm0KXfY?si=Pd6b5wG6hLLvFUFu"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
-        
+
         <section id="promotii">
             <h2>Promotii</h2>
             <p>Consultați promoțiile noastre în curs:</p>
@@ -178,8 +178,12 @@
                 <li>Reduceri la comenzi en-gros</li>
                 <li>Oferte cu durată limitată la produse populare</li>
             </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
-        
+
         <section id="info-server">
             <h2>Info Server</h2>
             <p>Aflați mai multe despre specificațiile și capacitățile serverului nostru:</p>
@@ -189,7 +193,7 @@
                 <li>Monitorizare și suport server 24/7</li>
             </ul>
         </section>
-        
+
         <section id="lista-useri">
             <h2>Lista Useri</h2>
             <p>Vizualizați lista utilizatorilor înregistrați:</p>
@@ -199,7 +203,7 @@
                 <li>User 3</li>
             </ul>
         </section>
-        
+
         <section id="stats">
             <h2>Statistici</h2>
             <p>Explorați statistici despre site-ul nostru:</p>
