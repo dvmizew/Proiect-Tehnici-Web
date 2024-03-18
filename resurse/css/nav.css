@@ -1,0 +1,73 @@
+nav {
+    --inaltime-meniu: 2.5em;
+    --latime-buton: 150px;
+    height: var(--inaltime-meniu);
+    background-color: var(--culoare-deschisa);
+}
+
+#hamburger,
+#ch-menu {
+    display: none;
+}
+
+#acasa-mediu {
+    display: none;
+}
+
+.meniu {
+    display: flex;
+}
+
+.meniu,
+.meniu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--culoare-deschisa);
+}
+
+.meniu li {
+    border: 1px solid var(--culoare-inchisa);
+    width: var(--latime-buton);
+    height: var(--inaltime-meniu);
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.meniu > li {
+    position: relative;
+}
+
+.meniu li div,
+.meniu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    line-height: var(--inaltime-meniu);
+    color: var(--culoare-text);
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 1s linear;
+}
+
+.meniu li:hover > div,
+.meniu li:hover > a {
+    background-color: var(--culoare-background-1);
+    color: var(--culoare-text-selectat);
+}
+
+.meniu li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    transform-origin: center top;
+}
+
+/* submeniu */
+.meniu ul {
+    display: none;
+}

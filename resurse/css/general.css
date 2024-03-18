@@ -1,3 +1,15 @@
+body {
+    --culoare1: #FFA500;
+    --culoare-inchisa: black;
+    --culoare-deschisa: white;
+    --culoare-text: #333333;
+    --culoare-text-selectat: #FF6347;
+
+    --spatiere: 100px;
+    padding-left: var(--spatiere);
+    padding-right: var(--spatiere);
+}
+
 #link-top {
     position: fixed;
     bottom: 0.3em;
@@ -96,4 +108,26 @@
 
 #tab-orar caption {
     caption-side: bottom;
+}
+
+#promotii {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#promotii > iframe-container {
+    display: flex;
+    border: 1px solid var(--culoare-background-2);
+    background-color: var(--culoare-background-2);
+    margin-bottom: 0.4em;
+    padding: 0.6em;
+}
+
+#promotii > iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
 }
