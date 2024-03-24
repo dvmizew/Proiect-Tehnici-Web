@@ -55,9 +55,6 @@
                     <div>Despre</div>
                     <ul>
                         <li><a href="despre.html#prezentare">Prezentare</a></li>
-                        <li><a href="despre.html#istoric">Istoric</a></li>
-                        <li><a href="despre.html#motivatie">Motivatie</a></li>
-                        <li><a href="despre.html#galerie">Galerie</a></li>
                     </ul>
                 </li>
                 <li>
@@ -94,8 +91,7 @@
         <section id="calendar">
             <h2>Calendar</h2>
             <iframe id="calendar-iframe"
-                src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest"
-                style="border: 0" width="650" height="400" frameborder="0" scrolling="no">
+                src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest">
             </iframe>
         </section>
 
@@ -200,17 +196,19 @@
                 <li>Reduceri la comenzi en-gros</li>
                 <li>Oferte cu durată limitată la produse populare</li>
             </ul>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-            <div id="iframe-container">
-                <a href="https://www.youtube.com/embed/ywXGMhHzGw4?si=MlMjZ8xnzZGDk8TJ" target="iframe" title="Video 1"></a>
-                <a href="https://www.youtube.com/embed/V6EpIABAKKo?si=gLLIOCW7G7ZewHrc" target="iframe" title="Video 2"></a>
-                <a href="https://www.youtube.com/embed/aITIKxjFaL0?si=3eFU5ZMA-gF9k9yj" target="iframe" title="Video 3"></a>
+            <div id="container-iframe">
+                <div class="taburi-iframe">
+                    <a href="https://www.youtube.com/embed/f3DfJxvkN-8?si=OVqlux-s3FUX_2bC" target="ifr-video" title="Airpods 2 Pro"> Airpods 2 Pro</a>
+                    <a href="https://www.youtube.com/embed/YmwskGLycHo?si=jr5eqxiZDDKsJVch" target="ifr-video" title="iPhone 15">iPhone 15</a>
+                    <a href="https://www.youtube.com/embed/XaqOejIaFgM?si=Ub0-GC0u8UDje5kL" target="ifr-video" title="Galaxy S24">Galaxy S24</a>
+                </div>
+                <iframe name="ifr-video" width="560" height="315"
+                    src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
             </div>
-            </section>
+        </section>
 
         <section id="info-server">
             <h2>Info Server</h2>
@@ -249,7 +247,8 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pLdfq0Imo48?si=P44wCHvqMCp5dRCE"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            allowfullscreen>
+        </iframe>
         <br>
         <a href="./resurse/imagini/iconita.png" download>DOWNLOAD ICONIȚĂ SITE</a>
         <address>
