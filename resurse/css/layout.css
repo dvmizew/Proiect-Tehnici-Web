@@ -5,13 +5,11 @@ html {
 #grid-pagina {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(300px, minmax(0, 1fr));
+    grid-template-columns: repeat(1fr, 4);
     outline: 2px solid var(--culoare-background-2);
     grid-template-areas:
-      "welcome welcome welcome"
+      "welcome welcome welcome welcome"
       "calendar tabel tabel anunturi"
-      "promotii promotii promotii"
-      "promotii promotii promotii"
       "promotii promotii promotii"
       "info-server info-server lista-useri stats"
       "footer footer footer footer";

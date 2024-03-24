@@ -2,7 +2,7 @@ nav {
     --inaltime-meniu: 2.5em;
     --latime-buton: 150px;
     height: var(--inaltime-meniu);
-    background-color: var(--culoare-deschisa);
+    background-color: var(--culoare-inchisa);
 }
 
 #hamburger,
@@ -23,7 +23,7 @@ nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: var(--culoare-deschisa);
+    background-color: var(--culoare-inchisa);
 }
 
 .meniu li {
@@ -46,7 +46,7 @@ nav {
     height: 100%;
     cursor: pointer;
     line-height: var(--inaltime-meniu);
-    color: var(--culoare-text);
+    color: var(--culoare-deschisa);
     text-decoration: none;
     box-sizing: border-box;
     transition: all 1s linear;
