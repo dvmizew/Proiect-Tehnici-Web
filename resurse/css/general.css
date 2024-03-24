@@ -127,9 +127,10 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     margin-top: 20px;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .container-iframe iframe {
@@ -139,14 +140,14 @@ body {
 
 .taburi-iframe {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     margin-top: 10px;
     position: absolute;
     bottom: 0;
 }
 
-.taburi-iframe>a {
+.taburi-iframe > a {
     display: block;
     border: 1px solid var(--culoare-background-3);
     background-color: var(--culoare-background-2);
@@ -156,6 +157,12 @@ body {
     flex: 1;
 }
 
-.taburi-iframe>a:not(:last-child) {
+.taburi-iframe > a:hover {
+    background-color: var(--culoare-background-3);
+    color: var(--culoare-deschisa);
+    transition: background-color 0.3s ease;
+}
+
+.taburi-iframe > a:not(:last-child) {
     margin-right: 10px;
 }
