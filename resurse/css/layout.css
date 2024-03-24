@@ -4,7 +4,7 @@ html {
 
 #grid-pagina {
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(1fr, 4);
     outline: 2px solid var(--culoare-background-2);
     grid-template-areas:
@@ -17,7 +17,7 @@ html {
 
 #grid-pagina > * {
     outline: 2px solid var(--culoare-background-2);
-    padding: 20px;
+    padding: 15px;
 }
 
 #grid-pagina > figure {
@@ -59,9 +59,12 @@ html {
     background-color: var(--culoare-background-2);
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
     position: relative;
     z-index: 1000;
+    border-bottom: 5px solid var(--culoare-border);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -104,5 +107,6 @@ html {
 
     #grid-pagina {
         display: block;
+        gap: 5px;
     }
 }

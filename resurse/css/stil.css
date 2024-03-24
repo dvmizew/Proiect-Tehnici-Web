@@ -8,15 +8,19 @@ body {
     --culoare-background-4: #FF6347;
     --culoare-background-5: #FF4500;
     --culoare-rosu: rgb(196, 1, 1);
-    --dim-spatiere: 50px;
+    --dim-spatiere: 20px;
     padding-left: var(--dim-spatiere);
     padding-right: var(--dim-spatiere);
-    background-color: var(--culoare-background-1);
     background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
+    font-family: 'Roboto', sans-serif;
 }
 
 .section {
     transition: transform 0.3s ease;
+    background-color: var(--culoare-background-1);
+    border: 2px solid var(--culoare-border);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .section:hover {
@@ -25,10 +29,14 @@ body {
 
 p {
     color: var(--culoare-background-1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
     border: 5px solid var(--culoare-background-1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 nav {
@@ -43,6 +51,9 @@ footer {
     margin: 10px;
     text-align: center;
     color: white;
+    border-top: 5px solid var(--culoare-border);
+    border-radius: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
