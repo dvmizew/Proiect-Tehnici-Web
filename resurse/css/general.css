@@ -15,17 +15,26 @@ body {
     bottom: 0.3em;
     opacity: 0.5;
     left: 0.3em;
-    width: 3rem;
-    box-sizing: border-box;
-    height: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border: 5px solid var(--culoare-rosu);
-    border-style: dashed;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     border-radius: 50%;
-    background: var(--culoare-background-1);
-    transition: transform 1s linear;
+    border: 3px dashed var(--culoare-rosu);
+    text-decoration: none;
+    color: var(--culoare-deschisa);
+    text-align: center;
+    transform: rotateZ(0);
+    box-shadow: var(--culoare-deschisa);
+    transition: opacity 0.5s linear, transform 0.5s linear;
     background: radial-gradient(circle, var(--culoare-background-1) 0%, var(--culoare-background-2) 100%);
+}
+
+#sageata {
+    font-size: 2rem;
+    color: var(--culoare-rosu);
+    opacity: 0.5;
+    transform: rotateZ(0);
+    transition: opacity 0.5s linear, transform 0.5s linear;
 }
 
 #link-top:hover {
@@ -33,37 +42,15 @@ body {
     opacity: 1;
 }
 
-#sageata span {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 5rem;
-    height: 5rem;
-    color: var(--culoare-rosu);
-    font-size: 2rem;
-    font-style: bold;
-}
-
-#sageata span:hover {
-    animation: pulse 1s infinite alternate;
-    transition-duration: 500ms;
-}
-
-@keyframes pulse {
-    0% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-        transform: translate(-50%, -50%) scale(1.1);
-    }
+#link-top:hover > #sageata {
+    opacity: 1;
+    transform: rotateZ(-90deg);
 }
 
 #calendar-iframe {
     border: 0;
     width: 650px;
-    height: 400px; 
+    height: 400px;
 }
 
 #table-container {
