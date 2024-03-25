@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <%- include("../fragmente/head.ejs") %>
+        <title>Magazin de conectică</title>
+        <meta name="keywords" content="Conectica, Retelistica, Cabluri, Accesorii, Echipamente">
+        <meta name="description"
+            content="Magazin de conectica, Adaptoare, Retelistica. Transport Gratuit la comenzi de peste 50 de lei.">
+</head>
+
+<body>
+    <%- include("../fragmente/header.ejs") %>
+        <main id="grid-pagina">
+            <section id="welcome">
+                <div class="z-pattern-container">
+                    <div class="z-pattern-image">
+                        <img src="resurse/imagini/iconita.png" alt="Imagine atractivă">
+                    </div>
+                    <div class="z-pattern-text">
+                        <h2>Bine ați venit!</h2>
+                        Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet.
+                        De
+                        la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi
+                        de
+                        peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
+                        numărul de telefon afișat mai jos.
+                    </div>
+                    <div class="animated-icon">
+                        <i class="fas fa-star fa-beat-fade"></i>
+                    </div>
+                </div>
+            </section>
+
+            </section>
+            <section id="calendar">
+                <h2>Calendar</h2>
+                <iframe id="calendar-iframe"
+                    src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest">
+                </iframe>
+            </section>
+
+            <section id="tabel">
+                <div id="table-container">
+                    <table id="tab-orar">
+                        <thead>
+
+                            <tr>
+                                <th>Cod</th>
+                                <th>Perioadă</th>
+                                <th>Zi</th>
+                                <th>Interval dimineata</th>
+                                <th>Pauza de masa</th>
+                                <th>Interval seară</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td rowspan="5">Zile<br />Lucrătoare</td>
+                                <td>Luni</td>
+                                <td>10-12</td>
+                                <td>12-14</td>
+                                <td>14-20</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+
+                                <td>Marti</td>
+                                <td>9-12</td>
+                                <td>12-14</td>
+                                <td>14-21</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+
+                                <td>Miercuri</td>
+                                <td>9-11</td>
+                                <td>11-13</td>
+                                <td>14-21</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+
+                                <td>Joi</td>
+                                <td>9-11</td>
+                                <td>11-13</td>
+                                <td>14-21</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+
+                                <td>Vineri</td>
+                                <td>9-12</td>
+                                <td>12-14</td>
+                                <td>14-19</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td rowspan="2">Weekend</td>
+                                <td>Sambata</td>
+                                <td>10-12</td>
+                                <td>12-13</td>
+                                <td>13-16</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Duminica</td>
+                                <td>10-14</td>
+                                <td>-</td>
+                                <td>inchis</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="6">Programul poate suferi modificări în funcție de situația epidemiologică.
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section id="anunturi">
+                <h2>Anunțuri</h2>
+                <ul>
+                    <li>Noi produse adăugate în stocul nostru</li>
+                    <li>Oferte speciale și reduceri</li>
+                    <li>Evenimente și promoții viitoare</li>
+                </ul>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UXFtqm0KXfY?si=Pd6b5wG6hLLvFUFu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </section>
+
+            <section id="promotii">
+                <h2>Promoții</h2>
+                <ul>
+                    <li>Cumpără unul, primește unul gratuit la articolele selectate</li>
+                    <li>Reduceri la comenzi en-gros</li>
+                    <li>Oferte cu durată limitată la produse populare</li>
+                </ul>
+                <div id="container-iframe">
+                    <div class="taburi-iframe">
+                        <a href="https://www.youtube.com/embed/f3DfJxvkN-8?si=OVqlux-s3FUX_2bC" target="ifr-video"
+                            title="Airpods 2 Pro"> Airpods 2 Pro</a>
+                        <a href="https://www.youtube.com/embed/YmwskGLycHo?si=jr5eqxiZDDKsJVch" target="ifr-video"
+                            title="iPhone 15">iPhone 15</a>
+                        <a href="https://www.youtube.com/embed/XaqOejIaFgM?si=Ub0-GC0u8UDje5kL" target="ifr-video"
+                            title="Galaxy S24">Galaxy S24</a>
+                    </div>
+                    <iframe name="ifr-video" width="560" height="315"
+                        src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <section id="info-server">
+                <h2>Info Server</h2>
+                <ul>
+                    <li>Prelucrare rapidă a datelor</li>
+                    <li>Stocare securizată a datelor</li>
+                    <li>Monitorizare și suport server 24/7</li>
+                </ul>
+            </section>
+
+            <section id="lista-useri">
+                <h2>Lista Useri Înregistrați</h2>
+                <ul>
+                    <li>User 1</li>
+                    <li>User 2</li>
+                    <li>User 3</li>
+                </ul>
+            </section>
+
+            <section id="stats">
+                <h2>Statistici site</h2>
+                <ul>
+                    <li>Numărul total de vizitatori</li>
+                    <li>Produsele cele mai vizualizate</li>
+                    <li>Paginile cu cea mai bună performanță</li>
+                </ul>
+            </section>
+        </main>
+        <%- include("../fragmente/footer.ejs") %>
+</body>
+
+</html>
