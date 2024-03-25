@@ -24,7 +24,6 @@ html {
     margin: 0;
 }
 
-
 #grid-pagina > #calendar {
     grid-area: calendar;
     overflow-x: auto;
