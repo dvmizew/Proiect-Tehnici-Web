@@ -35,8 +35,39 @@ nav {
     position: relative;
 }
 
+.meniu li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--culoare-background-1);
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.meniu li a:hover::before {
+    transform: scale(1);
+}
+
 .meniu > li {
     position: relative;
+}
+
+.meniu li ul {
+    transform: scale(0);
+    transform-origin: top left;
+    transition: transform 0.5s ease-in-out;
+}
+
+.meniu li:hover ul {
+    transform: scale(1);
+}
+
+.meniu li ul li:hover {
+    color: var(--culoare-text-selectat);
 }
 
 .meniu li div,

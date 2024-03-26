@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
     #hamburger {
         display: block;
+        cursor: pointer;
     }
 
     #hamburger > img {
@@ -12,14 +13,17 @@
         display: none;
         position: absolute;
         width: 100%;
+        clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
     }
 
     #ch-menu:checked + ul.meniu {
         display: block;
         z-index: 2;
         position: relative;
-        transform-origin: 0 0;
+        transform-origin: 100% 0;
         animation: aparitie_meniu forwards 0.7s linear;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        transition: clip-path 0.5s ease-in-out;
     }
 
     #ch-menu:checked + ul.meniu > li > div,
