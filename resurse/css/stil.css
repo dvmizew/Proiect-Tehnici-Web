@@ -28,7 +28,7 @@ body {
 }
 
 p {
-    color: var(--culoare-background-1);
+    color: var(--culoare-text);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
