@@ -19,14 +19,19 @@
 
     #watermark {
         position: fixed;
-        bottom: 0;
-        left: 0;
         width: 60%;
         height: 10%;
-        margin: auto;
-        opacity: 0.3;
+        top: 45%;
+        left: 20%;
         text-align: center;
-        color: var(--culoare-inchisa);
+        z-index: 9999;
+    }
+    
+    #watermark p {
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 50px;
+        margin: 0;
+        transform: rotate(-30deg);
     }
 
     header,
