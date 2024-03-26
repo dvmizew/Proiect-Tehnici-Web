@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px) {
+    #hamburger {
+        display: block;
+    }
+
+    #hamburger > img {
+        height: var(--inaltime-meniu);
+        display: block;
+    }
+
+    ul.meniu {
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+
+    #ch-menu:checked + ul.meniu {
+        display: block;
+        z-index: 2;
+        position: relative;
+        transform-origin: 0 0;
+        animation: aparitie_meniu forwards 0.7s linear;
+    }
+
+    #ch-menu:checked + ul.meniu > li > div,
+    #ch-menu:checked + ul.meniu > li > a {
+        z-index: 2;
+        position: relative;
+        transform-origin: 50% 50%;
+        animation: meniu_aparitie_buton forwards 0.7s linear;
+    }
+
+    nav ul.meniu li {
+        width: 100%;
+    }
+
+    nav ul.meniu > li ul {
+        position: absolute;
+        width: 100%;
+        z-index: 200;
+        transform: scale(1, 1) !important;
+        opacity: 1 !important;
+    }
+
+    #ch-menu:checked + ul.meniu > li ul > * {
+        position: relative;
+        z-index: 200;
+    }
+
+    nav ul.meniu > li:hover > ul {
+        z-index: 200;
+        animation: none;
+    }
+
+    nav ul.meniu > li li a:before {
+        content: "\25B7\00A0";
+        color: white;
+    }
+
+    @keyframes aparitie_meniu {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes meniu_aparitie_buton {
+        0% {
+            transform: scale(0, 0);
+        }
+        100% {
+            transform: scale(1, 1);
+        }
+    }
+}
