@@ -1,4 +1,12 @@
+#banner, #watermark {
+    display: none;
+}
+
 @media print {
+    #banner, #watermark {
+        display: block;
+    }
+    
     #banner {
         position: fixed;
         top: 0;
