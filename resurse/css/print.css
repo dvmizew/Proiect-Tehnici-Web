@@ -6,13 +6,13 @@
     #banner, #watermark {
         display: block;
     }
-    
+
     #banner {
         position: fixed;
         top: 0;
         right: 0;
         width: calc(50% - 2cm);
-        border: 4px double black;
+        border: 4px double var(--culoare-inchisa);
         padding: 10px;
         text-align: center;
     }
@@ -51,7 +51,7 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: var(--culoare-inchisa);
     }
 
     h1 {
