@@ -58,7 +58,7 @@
 
     nav ul.meniu > li li a:before {
         content: "\25B7\00A0";
-        color: white;
+        color: var(--culoare-deschisa);
     }
 
     @keyframes aparitie_meniu {
