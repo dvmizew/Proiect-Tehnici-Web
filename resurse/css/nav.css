@@ -2,7 +2,7 @@ nav {
     --inaltime-meniu: 2.5em;
     --latime-buton: 150px;
     height: var(--inaltime-meniu);
-    background-color: var(--culoare-inchisa);
+    background-color: var(--culoare-background-2);
 }
 
 #hamburger,
@@ -23,11 +23,11 @@ nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: var(--culoare-inchisa);
+    background-color: var(--culoare-background-2);
 }
 
 .meniu li {
-    border: 1px solid var(--culoare-inchisa);
+    border: 1px solid var(--culoare-background-2);
     width: var(--latime-buton);
     height: var(--inaltime-meniu);
     text-align: center;
@@ -67,7 +67,7 @@ nav {
 }
 
 .meniu li ul li:hover {
-    color: var(--culoare-text-selectat);
+    color: var(--culoare-highlight);
 }
 
 .meniu li div,
@@ -86,7 +86,7 @@ nav {
 .meniu li:hover > div,
 .meniu li:hover > a {
     background-color: var(--culoare-background-1);
-    color: var(--culoare-text-selectat);
+    color: var(--culoare-highlight);
 }
 
 .meniu li:hover > ul {
