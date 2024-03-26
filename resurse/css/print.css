@@ -1,5 +1,4 @@
 @media print {
-    /* Banner */
     #banner {
         position: fixed;
         top: 0;
@@ -10,7 +9,6 @@
         text-align: center;
     }
 
-    /* Watermark */
     #watermark {
         position: fixed;
         bottom: 0;
@@ -20,10 +18,9 @@
         margin: auto;
         opacity: 0.3;
         text-align: center;
-        color: black; /* Setarea culorii textului la negru */
+        color: var(--culoare-inchisa);
     }
 
-    /* Page break */
     header,
     footer {
         page-break-before: always;
@@ -33,31 +30,26 @@
         page-break-before: always;
     }
 
-    /* Gridul paginii afișat ca bloc */
     main {
         display: block;
     }
 
-    /* Ascunde elementele media */
     img,
     video,
     iframe,
-    a[href="#top"] { /* Ascunde linkul către începutul paginii */
+    a[href="#top"] {
         display: none;
     }
 
-    /* Linkurile să fie afișate ca text normal */
     a {
         text-decoration: none;
-        color: black; /* Setarea culorii linkurilor la negru */
+        color: black;
     }
 
-    /* Headingul de nivel 1 să fie centrat */
     h1 {
         text-align: center;
     }
 
-    /* Meniul sub formă de listă neordonată */
     nav ul {
         list-style-type: none;
         text-align: center;
