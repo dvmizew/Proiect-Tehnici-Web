@@ -1,11 +1,20 @@
+$color_1: var(--culoare-highlight);
+$color_2: var(--culoare-deschisa);
+$background-color_1: var(--culoare-background-2);
+$background-color_2: var(--culoare-background-1);
+
+/* submeniu */
 nav {
     --inaltime-meniu: 2.5em;
     --latime-buton: 150px;
     height: var(--inaltime-meniu);
-    background-color: var(--culoare-deschisa);
+    background-color: $background-color_1;
 }
 
-#hamburger,
+#hamburger {
+    display: none;
+}
+
 #ch-menu {
     display: none;
 }
@@ -16,60 +25,109 @@ nav {
 
 .meniu {
     display: flex;
-}
-
-.meniu,
-.meniu ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: var(--culoare-deschisa);
-}
+    background-color: $background-color_1;
 
-.meniu li {
-    border: 1px solid var(--culoare-inchisa);
-    width: var(--latime-buton);
-    height: var(--inaltime-meniu);
-    text-align: center;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.meniu > li {
-    position: relative;
-}
-
-.meniu li div,
-.meniu li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    line-height: var(--inaltime-meniu);
-    color: var(--culoare-text);
-    text-decoration: none;
-    box-sizing: border-box;
-    transition: all 1s linear;
-}
-
-.meniu li:hover > div,
-.meniu li:hover > a {
-    background-color: var(--culoare-background-1);
-    color: var(--culoare-text-selectat);
-}
-
-.meniu li:hover > ul {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 100;
-    transform-origin: center top;
-}
-
-/* submeniu */
-.meniu {
     ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: $background-color_1;
         display: none;
+    }
+
+    li {
+        border: 1px solid var(--culoare-background-2);
+        width: var(--latime-buton);
+        height: var(--inaltime-meniu);
+        text-align: center;
+        box-sizing: border-box;
+        position: relative;
+
+        a {
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $background-color_2;
+                transform: scale(0);
+                transition: transform 0.5s ease-in-out;
+                z-index: -1;
+            }
+
+            &:hover {
+                &::before {
+                    transform: scale(1);
+                }
+            }
+
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            line-height: var(--inaltime-meniu);
+            color: $color_2;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: all 1s linear;
+        }
+
+        ul {
+            transform: scale(0);
+            transform-origin: top left;
+            transition: transform 0.5s ease-in-out;
+
+            li {
+                &:hover {
+                    color: $color_1;
+                }
+            }
+        }
+
+        &:hover {
+            ul {
+                transform: scale(1);
+            }
+
+            >div {
+                background-color: $background-color_2;
+                color: $color_1;
+            }
+
+            >a {
+                background-color: $background-color_2;
+                color: $color_1;
+            }
+
+            >ul {
+                display: block;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 100;
+                transform-origin: center top;
+            }
+        }
+
+        div {
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            line-height: var(--inaltime-meniu);
+            color: $color_2;
+            text-decoration: none;
+            box-sizing: border-box;
+            transition: all 1s linear;
+        }
+    }
+
+    >li {
+        position: relative;
     }
 }
