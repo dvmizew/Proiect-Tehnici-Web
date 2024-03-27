@@ -1,4 +1,20 @@
-/* submeniu */
+body {
+  --culoare-text: #333333;
+  --culoare-border: #FFA500;
+  --culoare-highlight: #FF7F50;
+  --culoare-background-1: #F2F2F2;
+  --culoare-background-2: #FFA500;
+  --culoare-background-3: #FF7F50;
+  --culoare-background-4: #FF6347;
+  --culoare-background-5: #FF4500;
+  --culoare-rosu: rgb(196, 1, 1);
+  --dim-spatiere: 20px;
+  padding-left: var(--dim-spatiere);
+  padding-right: var(--dim-spatiere);
+  background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
+  font-family: "Roboto", sans-serif;
+}
+
 nav {
   --inaltime-meniu: 2.5em;
   --latime-buton: 150px;
@@ -78,12 +94,12 @@ nav {
   transform: scale(1);
 }
 .meniu li:hover > div {
-  background-color: var(--culoare-background-1);
+  background-color: var(--culoare-background-2);
   color: var(--culoare-highlight);
 }
 .meniu li:hover > a {
-  background-color: var(--culoare-background-1);
-  color: var(--culoare-highlight);
+  background-color: var(--culoare-background-2);
+  color: var(--culoare-deschisa);
 }
 .meniu li:hover > ul {
   display: block;
