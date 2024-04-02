@@ -3,6 +3,10 @@
 }
 
 @media print {
+    #link-top {
+        display: none;
+    }
+    
     #banner, #watermark {
         display: block;
     }
