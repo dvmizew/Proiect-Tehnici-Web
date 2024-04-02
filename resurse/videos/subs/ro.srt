@@ -1,0 +1,996 @@
+1
+00:00:01,640 --> 00:00:03,320
+te trezești vreodată că ai nevoie de o
+
+2
+00:00:03,320 --> 00:00:05,359
+modalitate foarte rapidă de a porni și stinge telefonul pentru a porni
+
+3
+00:00:05,359 --> 00:00:08,559
+și stinge torșa, bine intră în acțiune.
+
+4
+00:00:08,559 --> 00:00:10,360
+
+
+5
+00:00:10,360 --> 00:00:12,759
+
+
+6
+00:00:12,759 --> 00:00:14,599
+
+
+7
+00:00:14,599 --> 00:00:16,199
+
+
+8
+00:00:16,199 --> 00:00:18,119
+perforarea camerei telefonului dvs. pe care o puteți configura apoi
+
+9
+00:00:18,119 --> 00:00:20,920
+pentru a activa o varietate de acțiuni, așa că
+
+10
+00:00:20,920 --> 00:00:22,800
+am o singură atingere configurată pentru a
+
+11
+00:00:22,800 --> 00:00:25,400
+porni și opri lanterna telefonului. Am o
+
+12
+00:00:25,400 --> 00:00:27,119
+configurație de dublă atingere pentru a lansa
+
+13
+00:00:27,119 --> 00:00:29,640
+aplicația pentru cameră I'  Am o configurație de atingere lungă pentru a deschide
+
+14
+00:00:29,640 --> 00:00:31,640
+Spotify F și apoi o glisare spre stânga și o
+
+15
+00:00:31,640 --> 00:00:33,840
+glisare spre dreapta pentru a trece la melodiile anterioare și
+
+16
+00:00:33,840 --> 00:00:37,000
+următoare, respectiv, foarte tare, în al doilea
+
+17
+00:00:37,000 --> 00:00:39,920
+rând astăzi este Lansatorul Zone, un
+
+18
+00:00:39,920 --> 00:00:42,000
+fel de Lansator de aplicații ascuns care funcționează
+
+19
+00:00:42,000 --> 00:00:44,200
+în orice aplicație cu  configurarea aplicației,
+
+20
+00:00:44,200 --> 00:00:46,000
+pur și simplu glisați din partea dreaptă a
+
+21
+00:00:46,000 --> 00:00:47,680
+ecranului și veți fi
+
+22
+00:00:47,680 --> 00:00:49,440
+întâmpinat instantaneu cu toate aplicațiile dvs. preferate
+
+23
+00:00:49,440 --> 00:00:50,840
+și apoi puteți elibera degetul
+
+24
+00:00:50,840 --> 00:00:52,920
+peste orice aplicație pe care doriți să o deschideți și
+
+25
+00:00:52,920 --> 00:00:54,960
+puteți adăuga
+
+26
+00:00:54,960 --> 00:00:57,199
+pagini suplimentare.  de aplicații clasificate după cum doriți
+
+27
+00:00:57,199 --> 00:00:59,079
+și dacă faceți upgrade la
+
+28
+00:00:59,079 --> 00:01:00,879
+versiunea premium, aceasta va debloca apoi o
+
+29
+00:01:00,879 --> 00:01:03,280
+cantitate imensă de modificări și personalizări,
+
+30
+00:01:03,280 --> 00:01:06,600
+de asemenea, urmând o nouă
+
+31
+00:01:06,600 --> 00:01:08,720
+aplicație de memento-uri de presă, cu
+
+32
+00:01:08,720 --> 00:01:11,080
+un design super curat, pentru a merge cu
+
+33
+00:01:11,080 --> 00:01:13,119
+principalul aplicație.  Scopul este de a scăpa de toată
+
+34
+00:01:13,119 --> 00:01:15,439
+dezordinea uneori inutilă
+
+35
+00:01:15,439 --> 00:01:17,799
+care este împachetată în predică pentru a face
+
+36
+00:01:17,799 --> 00:01:19,799
+aplicații în stilul de listă în zilele noastre și, astfel,
+
+37
+00:01:19,799 --> 00:01:22,240
+ceea ce ajungeți în remine este o
+
+38
+00:01:22,240 --> 00:01:24,880
+interfață de utilizare cu adevărat minimă și intuitivă, trebuie doar să
+
+39
+00:01:24,880 --> 00:01:27,040
+atingeți acest buton de adăugare de memento, selectați
+
+40
+00:01:27,040 --> 00:01:29,040
+mementoul  tastați schimbați pictograma dacă doriți,
+
+41
+00:01:29,040 --> 00:01:30,360
+precum și culoarea dacă vă
+
+42
+00:01:30,360 --> 00:01:32,720
+simțiți puțin îndrăgostiți, apoi dați
+
+43
+00:01:32,720 --> 00:01:34,799
+mementoului un nume, cum ar fi coșurile goale, de
+
+44
+00:01:34,799 --> 00:01:37,439
+exemplu, apoi atingeți creați memento și
+
+45
+00:01:37,439 --> 00:01:39,240
+asta este tot, acum vi se va reaminti la
+
+46
+00:01:39,240 --> 00:01:41,240
+ora dorită.  acum, pentru că aplicația este
+
+47
+00:01:41,240 --> 00:01:43,240
+relativ nouă, are unele Kinks
+
+48
+00:01:43,240 --> 00:01:45,479
+de rezolvat, iar versiunea premium este
+
+49
+00:01:45,479 --> 00:01:47,920
+mult prea scumpă în opinia mea, dar
+
+50
+00:01:47,920 --> 00:01:49,719
+cred că are o mulțime de Promise, o
+
+51
+00:01:49,719 --> 00:01:52,079
+interfață de utilizare fantastică cu animații excelente
+
+52
+00:01:52,079 --> 00:01:53,960
+și a primit deja o mulțime de
+
+53
+00:01:53,960 --> 00:01:56,159
+destul de semnificative.  actualizările de până acum
+
+54
+00:01:56,159 --> 00:01:58,840
+chiar merită încercate cu
+
+55
+00:01:58,840 --> 00:02:02,159
+siguranță acum, vorbind despre interfața de utilizare și
+
+56
+00:02:02,159 --> 00:02:04,840
+animații uimitoare, namida este o aplicație de
+
+57
+00:02:04,840 --> 00:02:06,759
+redare muzicală și video frumos concepută,
+
+58
+00:02:06,759 --> 00:02:08,878
+care m-a uimit serios
+
+59
+00:02:08,878 --> 00:02:11,720
+prin cât de plăcută este
+
+60
+00:02:11,720 --> 00:02:14,080
+interfața sa. Adică, uită-te la aceste animații în timp ce deschid și
+
+61
+00:02:14,080 --> 00:02:16,560
+închid.  această muzică redă aici și vezi
+
+62
+00:02:16,560 --> 00:02:19,080
+cum grafica albumului pulsează dinamic
+
+63
+00:02:19,080 --> 00:02:21,200
+în sincronizare cu muzica, este
+
+64
+00:02:21,200 --> 00:02:23,400
+ridicol de fluidă și cool și există
+
+65
+00:02:23,400 --> 00:02:25,040
+o grămadă de alte exemple ale acestor
+
+66
+00:02:25,040 --> 00:02:26,360
+animații frumoase și în alte
+
+67
+00:02:26,360 --> 00:02:28,720
+părți ale interfeței și apoi
+
+68
+00:02:28,720 --> 00:02:30,120
+pe deasupra muzicii
+
+69
+00:02:30,120 --> 00:02:32,319
+funcționalitate de redare, include și
+
+70
+00:02:32,319 --> 00:02:33,920
+funcționalitate de redare video, dar vă voi lăsa să
+
+71
+00:02:33,920 --> 00:02:35,840
+explorați această funcție pe cont propriu, dacă
+
+72
+00:02:35,840 --> 00:02:37,920
+doriți, chiar și fără această funcție, aplicația
+
+73
+00:02:37,920 --> 00:02:39,840
+merită încercată doar din
+
+74
+00:02:39,840 --> 00:02:42,319
+cauza cât de frumos este designul și
+
+75
+00:02:42,319 --> 00:02:43,800
+apoi, în timp ce suntem pe  Subiectul
+
+76
+00:02:43,800 --> 00:02:46,640
+aplicațiilor legate de muzică CD romantic este o
+
+77
+00:02:46,640 --> 00:02:49,000
+artă foarte cool, cu un design super nostalgic,
+
+78
+00:02:49,000 --> 00:02:50,519
+care vă permite să convertiți
+
+79
+00:02:50,519 --> 00:02:52,920
+muzica preferată în muzică stil vapor wave și
+
+80
+00:02:52,920 --> 00:02:54,720
+înainte de a ajunge măcar la funcționalitate, vreau să
+
+81
+00:02:54,720 --> 00:02:56,480
+spun doar aruncați o privire la designul
+
+82
+00:02:56,480 --> 00:02:59,480
+aici, acesta este  cum ar fi stilul clasic Windows 95,
+
+83
+00:02:59,480 --> 00:03:01,640
+care îmi aduce atât de multe amintiri,
+
+84
+00:03:01,640 --> 00:03:03,879
+dar apoi, în afară de design, pentru a
+
+85
+00:03:03,879 --> 00:03:05,760
+utiliza efectiv funcționalitatea aplicației,
+
+86
+00:03:05,760 --> 00:03:07,680
+alegeți doar o piesă pe care doriți să o editați
+
+87
+00:03:07,680 --> 00:03:09,680
+și, odată selectată, veți obține o grămadă de
+
+88
+00:03:09,680 --> 00:03:11,720
+aceste efecte audio care vor
+
+89
+00:03:11,720 --> 00:03:13,560
+schimbă-și complet stilul și efectele
+
+90
+00:03:13,560 --> 00:03:15,879
+nu sunt ca aceste efecte super banale de calitate scăzută,
+
+91
+00:03:15,879 --> 00:03:18,239
+fie cumva
+
+92
+00:03:18,239 --> 00:03:20,360
+sună foarte tare dacă cauți
+
+93
+00:03:20,360 --> 00:03:22,720
+niște versiuni în stil ambiental relaxante
+
+94
+00:03:22,720 --> 00:03:25,040
+ale pieselor tale preferate,
+
+95
+00:03:25,040 --> 00:03:27,120
+înainte de a ajunge la
+
+96
+00:03:27,120 --> 00:03:29,120
+următoarea aplicație.  Am vrut doar să iau un
+
+97
+00:03:29,120 --> 00:03:30,920
+moment pentru a vorbi despre niște boxe noi uimitoare
+
+98
+00:03:30,920 --> 00:03:33,000
+pe care le-am primit recent, care sunt de
+
+99
+00:03:33,000 --> 00:03:34,879
+fapt de la sponsorul acestui video
+
+100
+00:03:34,879 --> 00:03:37,280
+kef acum, dacă ați auzit de brandul kef
+
+101
+00:03:37,280 --> 00:03:38,879
+înainte, atunci probabil veți fi conștienți
+
+102
+00:03:38,879 --> 00:03:40,480
+că fac unele dintre ele.  cele mai
+
+103
+00:03:40,480 --> 00:03:42,920
+premium și bine construite difuzoare din lume, dar cea
+
+104
+00:03:42,920 --> 00:03:46,280
+mai recentă ofertă a lor LSX 2 LTS,
+
+105
+00:03:46,280 --> 00:03:47,720
+deși încă nu sunt ceea ce mulți ar
+
+106
+00:03:47,720 --> 00:03:50,040
+considera revoltător de ieftine, sunt un
+
+107
+00:03:50,040 --> 00:03:52,439
+set de boxe mult mai accesibil și
+
+108
+00:03:52,439 --> 00:03:54,239
+totuși, în ciuda prețului lor mai accesibil,
+
+109
+00:03:54,239 --> 00:03:56,840
+încă folosesc Kef.
+
+110
+00:03:56,840 --> 00:03:59,280
+Tehnologia impresionantă de matrice de driver uniq, care
+
+111
+00:03:59,280 --> 00:04:01,159
+plasează Twitter exact în
+
+112
+00:04:01,159 --> 00:04:03,360
+centrul acustic al bazei și al
+
+113
+00:04:03,360 --> 00:04:05,760
+conului de gamă medie, ceea ce permite difuzoarelor
+
+114
+00:04:05,760 --> 00:04:08,720
+să disperseze sunetul în mod uniform în orice
+
+115
+00:04:08,720 --> 00:04:11,040
+cameră, eliminând astfel acea
+
+116
+00:04:11,040 --> 00:04:13,640
+problemă singulară Sweet Spot care afectează majoritatea celorlalte
+
+117
+00:04:13,640 --> 00:04:15,920
+difuzoare de pe piață, plus
+
+118
+00:04:15,920 --> 00:04:18,279
+calitatea sunetului pe care îl produc este la un alt
+
+119
+00:04:18,279 --> 00:04:19,959
+nivel. De fapt, le-am folosit la
+
+120
+00:04:19,959 --> 00:04:22,120
+biroul meu de editare în ultimele 2 luni
+
+121
+00:04:22,120 --> 00:04:24,680
+și omule, sună incredibil aici,
+
+122
+00:04:24,680 --> 00:04:26,080
+
+
+123
+00:04:26,080 --> 00:04:31,600
+ascultă, știu că uneori viața poate fi
+
+124
+00:04:32,510 --> 00:04:35,360
+[muzică]
+
+125
+00:04:35,360 --> 00:04:37,800
+și te simți ca și cum ai tu.
+
+126
+00:04:37,800 --> 00:04:40,320
+doar pentru a afla mai multe despre ele sau pentru a
+
+127
+00:04:40,320 --> 00:04:41,840
+alege o pereche pentru tine, folosește primul
+
+128
+00:04:41,840 --> 00:04:44,479
+link din descrierea de
+
+129
+00:04:44,479 --> 00:04:47,160
+mai jos, bine la jumătatea listei și cu
+
+130
+00:04:47,160 --> 00:04:49,360
+mult timp în urmă am prezentat o aplicație meteo
+
+131
+00:04:49,360 --> 00:04:51,440
+pe canal numită vreme geometrică, pe
+
+132
+00:04:51,440 --> 00:04:53,160
+care o cunosc pentru o vreme.  De fapt a fost o mulțime de
+
+133
+00:04:53,160 --> 00:04:55,039
+aplicații meteo preferate de utilizatori, pur și simplu
+
+134
+00:04:55,039 --> 00:04:57,560
+din cauza cât de incredibil a fost designul, din
+
+135
+00:04:57,560 --> 00:04:59,720
+păcate, dezvoltat pe acea aplicație Di cu
+
+136
+00:04:59,720 --> 00:05:01,440
+câțiva ani în urmă și nu
+
+137
+00:05:01,440 --> 00:05:03,280
+mai este disponibilă pentru a fi preluată din
+
+138
+00:05:03,280 --> 00:05:05,080
+Magazinul Google Play și, deci, de aici
+
+139
+00:05:05,080 --> 00:05:07,600
+vine vremea vântoasă.  aplicația este
+
+140
+00:05:07,600 --> 00:05:09,440
+de fapt o bifurcație a
+
+141
+00:05:09,440 --> 00:05:11,639
+vremii geometrice frumos proiectate, dar adaugă
+
+142
+00:05:11,639 --> 00:05:13,680
+în ea un pic din propria ei o grămadă
+
+143
+00:05:13,680 --> 00:05:16,000
+de caracteristici suplimentare și un set de
+
+144
+00:05:16,000 --> 00:05:18,199
+widget-uri super-reclamații pentru a merge cu și cam
+
+145
+00:05:18,199 --> 00:05:19,960
+atât, dar este plăcut să știm că
+
+146
+00:05:19,960 --> 00:05:22,280
+avem în sfârșit  un înlocuitor potrivit pentru
+
+147
+00:05:22,280 --> 00:05:24,840
+ceea ce a fost odată o aplicație meteo foarte îndrăgită,
+
+148
+00:05:24,840 --> 00:05:27,240
+atunci avem Unified Remote, care este o
+
+149
+00:05:27,240 --> 00:05:29,120
+aplicație super la îndemână care vă permite să vă transformați
+
+150
+00:05:29,120 --> 00:05:31,400
+telefonul într-o telecomandă all-in-one pentru
+
+151
+00:05:31,400 --> 00:05:33,440
+computer, pe care doar descărcați și
+
+152
+00:05:33,440 --> 00:05:35,639
+instalați serverul Unified Remote.
+
+153
+00:05:35,639 --> 00:05:37,639
+computerul dvs. de pe site-ul lor web și
+
+154
+00:05:37,639 --> 00:05:39,520
+de acolo, atâta timp cât dispozitivele dvs. sunt
+
+155
+00:05:39,520 --> 00:05:41,759
+conectate la aceeași rețea Wi-Fi,
+
+156
+00:05:41,759 --> 00:05:43,560
+veți putea folosi oricare dintre aceste
+
+157
+00:05:43,560 --> 00:05:45,960
+opțiuni de la distanță pentru a vă controla computerul
+
+158
+00:05:45,960 --> 00:05:48,080
+de pe telefon, puteți utiliza această
+
+159
+00:05:48,080 --> 00:05:49,919
+opțiune de intrare de bază pentru a utiliza  telefonul dvs. ca
+
+160
+00:05:49,919 --> 00:05:52,000
+mouse sau tastatură fără fir, puteți utiliza
+
+161
+00:05:52,000 --> 00:05:53,600
+opțiunea de gestionare a fișierelor pentru a naviga
+
+162
+00:05:53,600 --> 00:05:55,600
+prin diferitele fișiere stocate pe
+
+163
+00:05:55,600 --> 00:05:57,720
+computer, plus există și o
+
+164
+00:05:57,720 --> 00:05:59,000
+telecomandă media excelentă pentru controlul
+
+165
+00:05:59,000 --> 00:06:00,080
+prezentării
+
+166
+00:06:00,080 --> 00:06:02,039
+și acest mod de alimentare pentru a controla o
+
+167
+00:06:02,039 --> 00:06:04,039
+mulțime de aceste opțiuni de alimentare legate de
+
+168
+00:06:04,039 --> 00:06:05,800
+dvs.  computerul este plin de
+
+169
+00:06:05,800 --> 00:06:08,039
+funcții foarte ușor de configurat și, mai mult
+
+170
+00:06:08,039 --> 00:06:10,319
+decât atât, este foarte util
+
+171
+00:06:10,319 --> 00:06:13,000
+și apoi este
+
+172
+00:06:13,000 --> 00:06:15,240
+expert în pixeli, care este o aplicație numai root pe
+
+173
+00:06:15,240 --> 00:06:17,319
+care am inclus-o recent în cele 10
+
+174
+00:06:17,319 --> 00:06:19,240
+motive pentru a vă roota videoclipul telefonului.  dar
+
+175
+00:06:19,240 --> 00:06:21,039
+este atât de puternic încât am vrut să-
+
+176
+00:06:21,039 --> 00:06:23,520
+l includ și în videoclipul de astăzi,
+
+177
+00:06:23,520 --> 00:06:25,800
+pe lângă faptul că sunt un expert în pixeli în aplicații numai root,
+
+178
+00:06:25,800 --> 00:06:28,280
+este proiectat să funcționeze cel mai bine
+
+179
+00:06:28,280 --> 00:06:31,160
+cu AOSP sau ROM-uri bazate pe pixeli, așa că țineți
+
+180
+00:06:31,160 --> 00:06:33,199
+cont de asta, dar cu aplicația instalată.
+
+181
+00:06:33,199 --> 00:06:35,400
+veți descoperi că este complet plin de
+
+182
+00:06:35,400 --> 00:06:37,720
+opțiuni de personalizare
+
+183
+00:06:37,720 --> 00:06:39,000
+care vă vor ajuta să duceți
+
+184
+00:06:39,000 --> 00:06:41,240
+funcționalitatea telefonului la următorul nivel, există
+
+185
+00:06:41,240 --> 00:06:42,880
+o opțiune pentru a afișa glisorul de luminozitate
+
+186
+00:06:42,880 --> 00:06:44,720
+atunci când glisați prima dată în
+
+187
+00:06:44,720 --> 00:06:46,520
+panoul de setări rapide sau pentru a-l muta.  în
+
+188
+00:06:46,520 --> 00:06:48,840
+partea de jos puteți folosi această setare pentru a
+
+189
+00:06:48,840 --> 00:06:51,199
+ascunde complet bara de navigare sau pentru a
+
+190
+00:06:51,199 --> 00:06:52,960
+elimina cercul din spatele
+
+191
+00:06:52,960 --> 00:06:54,880
+pictogramei senzorului de amprentă de pe
+
+192
+00:06:54,880 --> 00:06:57,639
+ecranul de blocare și poate că caracteristica mea preferată
+
+193
+00:06:57,639 --> 00:06:59,440
+este că vă permite chiar să configurați această
+
+194
+00:06:59,440 --> 00:07:01,240
+lanternă glisantă.
+
+195
+00:07:01,240 --> 00:07:04,560
+folosiți tot
+
+196
+00:07:04,560 --> 00:07:07,199
+timpul, până în ultimul timp, astăzi este
+
+197
+00:07:07,199 --> 00:07:10,639
+pix dos kwgt un pachet de widget-uri plin până la
+
+198
+00:07:10,639 --> 00:07:13,240
+refuz cu tone de
+
+199
+00:07:13,240 --> 00:07:15,759
+widget-uri inspirate de materiale frumoase, care acum le-au acordat diferitele
+
+200
+00:07:15,759 --> 00:07:17,520
+opțiuni de widget-uri pe care Google le-a
+
+201
+00:07:17,520 --> 00:07:19,919
+adăugat de-a lungul anilor de când Android 12
+
+202
+00:07:19,919 --> 00:07:22,360
+sunt destul de îngrijite, dar în  Sincer,
+
+203
+00:07:22,360 --> 00:07:24,160
+sunt atât de puține dintre ele și
+
+204
+00:07:24,160 --> 00:07:26,280
+nu există nicio modalitate de a le personaliza pentru a vă
+
+205
+00:07:26,280 --> 00:07:27,879
+asigura că se potrivesc cu adevărat cu
+
+206
+00:07:27,879 --> 00:07:30,280
+configurația ecranului dvs. de pornire și, de aceea, aici
+
+207
+00:07:30,280 --> 00:07:32,720
+intervin punctele cu pixeli, nu numai că vă ajută să
+
+208
+00:07:32,720 --> 00:07:34,479
+aveți control granular asupra materialelor
+
+209
+00:07:34,479 --> 00:07:36,599
+bazate pe materiale.  widget-uri pe care le oferă,
+
+210
+00:07:36,599 --> 00:07:38,680
+dar la realizarea acestui videoclip,
+
+211
+00:07:38,680 --> 00:07:42,160
+pachetul vine cu peste 130 de widget-uri unice din care să
+
+212
+00:07:42,160 --> 00:07:44,319
+alegeți, oferindu-vă o cantitate imensă
+
+213
+00:07:44,319 --> 00:07:46,520
+de opțiuni pentru ca ecranul dvs. de pornire să arate
+
+214
+00:07:46,520 --> 00:07:48,639
+exact așa cum doriți.
+
+215
+00:07:48,639 --> 00:07:50,520
+folosind
+
+216
+00:07:50,520 --> 00:07:55,240
+widget-urile 92, 55, 119 și, respectiv, 68, dintre care
+
+217
+00:07:55,240 --> 00:07:56,840
+unele le-am introdus apoi și le-am
+
+218
+00:07:56,840 --> 00:07:59,319
+editat și eu, așa că este cu adevărat
+
+219
+00:07:59,319 --> 00:08:01,199
+o modalitate uimitoare de a face ecranul dvs. de pornire să
+
+220
+00:08:01,199 --> 00:08:04,240
+arate incredibil de elegant și unic și, în
+
+221
+00:08:04,240 --> 00:08:06,680
+sfârșit, astăzi avem o listă
+
+222
+00:08:06,680 --> 00:08:08,919
+fantastică.  aplicație pentru crearea și gestionarea
+
+223
+00:08:08,919 --> 00:08:11,680
+listelor de orice fel, aplicația este împărțită
+
+224
+00:08:11,680 --> 00:08:14,319
+în patru secțiuni cheie această pagină de pornire,
+
+225
+00:08:14,319 --> 00:08:17,199
+apoi există o pagină de inbox, o pagină de sarcini
+
+226
+00:08:17,199 --> 00:08:19,080
+și o pagină de mesaje, dar oricând
+
+227
+00:08:19,080 --> 00:08:20,960
+doriți să faceți orice fel de listă, cum ar fi o
+
+228
+00:08:20,960 --> 00:08:22,840
+listă de cumpărături sau o listă de cărți  pe care
+
+229
+00:08:22,840 --> 00:08:24,560
+ați citit-o de-a lungul anului sau chiar
+
+230
+00:08:24,560 --> 00:08:25,960
+o listă de obiceiuri la care doriți să lucrați în
+
+231
+00:08:25,960 --> 00:08:28,360
+anul următor sau așa, ideea este
+
+232
+00:08:28,360 --> 00:08:30,599
+că folosiți super listă pentru a le crea și
+
+233
+00:08:30,599 --> 00:08:33,000
+gestiona pe toate într-un singur loc și îmi
+
+234
+00:08:33,000 --> 00:08:35,000
+place foarte mult cât de simplu  aplicația poate fi,
+
+235
+00:08:35,000 --> 00:08:37,000
+dacă doriți doar să o utilizați, o simplă
+
+236
+00:08:37,000 --> 00:08:38,719
+gestionare a listelor, dar apoi, dacă vă simțiți atât de
+
+237
+00:08:38,719 --> 00:08:40,760
+înclinat, puteți duce aplicația la un alt
+
+238
+00:08:40,760 --> 00:08:43,200
+nivel împreună, creând echipe
+
+239
+00:08:43,200 --> 00:08:45,240
+invitând alți utilizatori să se alăture echipelor dvs.
+
+240
+00:08:45,240 --> 00:08:47,480
+și apoi atribuind sarcini sau
+
+241
+00:08:47,480 --> 00:08:49,600
+liste specifice  pentru membrii echipei, ceea ce este o
+
+242
+00:08:49,600 --> 00:08:52,279
+funcționalitate serioasă, așa că
+
+243
+00:08:52,279 --> 00:08:54,160
+aveți 10 aplicații care cred că
+
+244
+00:08:54,160 --> 00:08:56,080
+sunt destul de grozave dacă vă place
+
+245
+00:08:56,080 --> 00:08:58,320
+videoclipul, atunci un sub la canal ar fi
+
+246
+00:08:58,320 --> 00:09:00,399
+uimitor, dar asta este, vă mulțumesc tuturor
+
+247
+00:09:00,399 --> 00:09:04,720
+pentru vizionare și o voi face  te prind
+
+248
+00:09:06,320 --> 00:09:21,399
+[Muzică]
+
+249
+00:09:21,399 --> 00:09:24,399
+mai târziu
+

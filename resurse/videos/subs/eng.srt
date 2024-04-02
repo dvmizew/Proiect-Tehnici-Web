@@ -1,0 +1,996 @@
+1
+00:00:01,640 --> 00:00:03,320
+you ever find yourself needing a really
+
+2
+00:00:03,320 --> 00:00:05,359
+quick way to turn your phone to torch on
+
+3
+00:00:05,359 --> 00:00:08,559
+and off well enter action Notch a really
+
+4
+00:00:08,559 --> 00:00:10,360
+powerful application that can do just
+
+5
+00:00:10,360 --> 00:00:12,759
+that plus a bunch more the app actually
+
+6
+00:00:12,759 --> 00:00:14,599
+gives you up to five different gestures
+
+7
+00:00:14,599 --> 00:00:16,199
+that you can perform on your phone's
+
+8
+00:00:16,199 --> 00:00:18,119
+camera hole punch that you can then set
+
+9
+00:00:18,119 --> 00:00:20,920
+up to activate a variety of actions so
+
+10
+00:00:20,920 --> 00:00:22,800
+I've got a single touch set up to turn
+
+11
+00:00:22,800 --> 00:00:25,400
+on and off my phon torch I've got a
+
+12
+00:00:25,400 --> 00:00:27,119
+double touch setup to launch the camera
+
+13
+00:00:27,119 --> 00:00:29,640
+app I've got a long touch setup to open
+
+14
+00:00:29,640 --> 00:00:31,640
+Spotify F and then a swipe left and a
+
+15
+00:00:31,640 --> 00:00:33,840
+swipe right to skip to the previous and
+
+16
+00:00:33,840 --> 00:00:37,000
+next tracks respectively really cool
+
+17
+00:00:37,000 --> 00:00:39,920
+second up today is Zone launcher a neat
+
+18
+00:00:39,920 --> 00:00:42,000
+hidden App Launcher of sorts that works
+
+19
+00:00:42,000 --> 00:00:44,200
+within any application with the app set
+
+20
+00:00:44,200 --> 00:00:46,000
+up you simply swipe in from the right of
+
+21
+00:00:46,000 --> 00:00:47,680
+your screen and you'll instantly be
+
+22
+00:00:47,680 --> 00:00:49,440
+greeted with all of your favorite apps
+
+23
+00:00:49,440 --> 00:00:50,840
+and you can then release your finger
+
+24
+00:00:50,840 --> 00:00:52,920
+over whichever app you want to open and
+
+25
+00:00:52,920 --> 00:00:54,960
+there you go you can also add additional
+
+26
+00:00:54,960 --> 00:00:57,199
+pages of apps categorized however you
+
+27
+00:00:57,199 --> 00:00:59,079
+like and if you upgrade to the premium
+
+28
+00:00:59,079 --> 00:01:00,879
+version that will will then unlock a
+
+29
+00:01:00,879 --> 00:01:03,280
+huge amount of tweaks and customizations
+
+30
+00:01:03,280 --> 00:01:06,600
+as well following that is remon a fresh
+
+31
+00:01:06,600 --> 00:01:08,720
+off the press reminders application with
+
+32
+00:01:08,720 --> 00:01:11,080
+a super clean design to go with the
+
+33
+00:01:11,080 --> 00:01:13,119
+app's primary goal is to get rid of all
+
+34
+00:01:13,119 --> 00:01:15,439
+of the sometimes unnecessary clutter
+
+35
+00:01:15,439 --> 00:01:17,799
+that comes packed into sermon to do list
+
+36
+00:01:17,799 --> 00:01:19,799
+style applications these days and so
+
+37
+00:01:19,799 --> 00:01:22,240
+what you end up with in remine is a
+
+38
+00:01:22,240 --> 00:01:24,880
+really minimal and intuitive UI you just
+
+39
+00:01:24,880 --> 00:01:27,040
+tap this add reminder button select the
+
+40
+00:01:27,040 --> 00:01:29,040
+reminder type change the icon if you
+
+41
+00:01:29,040 --> 00:01:30,360
+like as well as the color if you're
+
+42
+00:01:30,360 --> 00:01:32,720
+feeling a bit fancy then you give your
+
+43
+00:01:32,720 --> 00:01:34,799
+reminder a name like empty bins for
+
+44
+00:01:34,799 --> 00:01:37,439
+example then you tap create reminder and
+
+45
+00:01:37,439 --> 00:01:39,240
+that's it you'll now be reminded at your
+
+46
+00:01:39,240 --> 00:01:41,240
+desired time now because the app is
+
+47
+00:01:41,240 --> 00:01:43,240
+relatively new it does have some Kinks
+
+48
+00:01:43,240 --> 00:01:45,479
+to iron out and the premium version is
+
+49
+00:01:45,479 --> 00:01:47,920
+far too expensive in my opinion but I
+
+50
+00:01:47,920 --> 00:01:49,719
+think it's got a lot of Promise a
+
+51
+00:01:49,719 --> 00:01:52,079
+fantastic UI with excellent animations
+
+52
+00:01:52,079 --> 00:01:53,960
+and it's already received a bunch of
+
+53
+00:01:53,960 --> 00:01:56,159
+pretty significant updates thus far so
+
+54
+00:01:56,159 --> 00:01:58,840
+absolutely worth trying out for
+
+55
+00:01:58,840 --> 00:02:02,159
+sure now speaking of amazing uis and
+
+56
+00:02:02,159 --> 00:02:04,840
+animations namida is a beautifully
+
+57
+00:02:04,840 --> 00:02:06,759
+designed music and video player
+
+58
+00:02:06,759 --> 00:02:08,878
+application that seriously stuned me
+
+59
+00:02:08,878 --> 00:02:11,720
+with just how nice its UI is I mean just
+
+60
+00:02:11,720 --> 00:02:14,080
+look at these animations as I open and
+
+61
+00:02:14,080 --> 00:02:16,560
+close this music play here and check out
+
+62
+00:02:16,560 --> 00:02:19,080
+how the album artwork dynamically pulses
+
+63
+00:02:19,080 --> 00:02:21,200
+in sync with the music it is
+
+64
+00:02:21,200 --> 00:02:23,400
+ridiculously fluid and cool and there's
+
+65
+00:02:23,400 --> 00:02:25,040
+a stack of other examples of these
+
+66
+00:02:25,040 --> 00:02:26,360
+beautiful animations throughout other
+
+67
+00:02:26,360 --> 00:02:28,720
+parts of the interface as well and then
+
+68
+00:02:28,720 --> 00:02:30,120
+on top of the music playing
+
+69
+00:02:30,120 --> 00:02:32,319
+functionality it also includes video
+
+70
+00:02:32,319 --> 00:02:33,920
+playing functionality but I'll let you
+
+71
+00:02:33,920 --> 00:02:35,840
+explore that feature on your own if you
+
+72
+00:02:35,840 --> 00:02:37,920
+like even without that feature the app
+
+73
+00:02:37,920 --> 00:02:39,840
+is still worth trying just simply
+
+74
+00:02:39,840 --> 00:02:42,319
+because of how nice the design is and
+
+75
+00:02:42,319 --> 00:02:43,800
+then while we're on the topic of Music
+
+76
+00:02:43,800 --> 00:02:46,640
+related apps CD romantic is a really
+
+77
+00:02:46,640 --> 00:02:49,000
+cool art with a super nostalgic design
+
+78
+00:02:49,000 --> 00:02:50,519
+that allows you to convert your favorite
+
+79
+00:02:50,519 --> 00:02:52,920
+music into vapor wave Style music and
+
+80
+00:02:52,920 --> 00:02:54,720
+before we even get to the functionality
+
+81
+00:02:54,720 --> 00:02:56,480
+I mean just have a look at the design
+
+82
+00:02:56,480 --> 00:02:59,480
+here this is like classic Windows 95
+
+83
+00:02:59,480 --> 00:03:01,640
+Style which brings back so many memories
+
+84
+00:03:01,640 --> 00:03:03,879
+to me but then aside from the design to
+
+85
+00:03:03,879 --> 00:03:05,760
+actually use the app's functionality you
+
+86
+00:03:05,760 --> 00:03:07,680
+just pick a track that you want to edit
+
+87
+00:03:07,680 --> 00:03:09,680
+and once selected you'll get a bunch of
+
+88
+00:03:09,680 --> 00:03:11,720
+these audio effects that will completely
+
+89
+00:03:11,720 --> 00:03:13,560
+change up its style and the effects
+
+90
+00:03:13,560 --> 00:03:15,879
+aren't like these super corny lowquality
+
+91
+00:03:15,879 --> 00:03:18,239
+effects either somehow they actually do
+
+92
+00:03:18,239 --> 00:03:20,360
+sound really cool if you're looking for
+
+93
+00:03:20,360 --> 00:03:22,720
+some trippy relaxing ambient style
+
+94
+00:03:22,720 --> 00:03:25,040
+versions of your favorite
+
+95
+00:03:25,040 --> 00:03:27,120
+tracks all right before we get to the
+
+96
+00:03:27,120 --> 00:03:29,120
+next application just wanted to take a
+
+97
+00:03:29,120 --> 00:03:30,920
+moment to talk about some amazing new
+
+98
+00:03:30,920 --> 00:03:33,000
+speakers that I recently got which are
+
+99
+00:03:33,000 --> 00:03:34,879
+actually from the sponsor of this video
+
+100
+00:03:34,879 --> 00:03:37,280
+kef now if you've heard of the brand kef
+
+101
+00:03:37,280 --> 00:03:38,879
+before then you'll probably be aware
+
+102
+00:03:38,879 --> 00:03:40,480
+that they make some of the world's most
+
+103
+00:03:40,480 --> 00:03:42,920
+premium and well-built speakers but
+
+104
+00:03:42,920 --> 00:03:46,280
+their latest offering the LSX 2 LTS
+
+105
+00:03:46,280 --> 00:03:47,720
+whilst they're still not what many would
+
+106
+00:03:47,720 --> 00:03:50,040
+consider outrageously cheap they are a
+
+107
+00:03:50,040 --> 00:03:52,439
+much more accessible set of speakers and
+
+108
+00:03:52,439 --> 00:03:54,239
+yet despite their more affordable price
+
+109
+00:03:54,239 --> 00:03:56,840
+tag they still utilize kef's impressive
+
+110
+00:03:56,840 --> 00:03:59,280
+uniq driver array technology which
+
+111
+00:03:59,280 --> 00:04:01,159
+places is the Twitter precisely at the
+
+112
+00:04:01,159 --> 00:04:03,360
+acoustic center of the base and
+
+113
+00:04:03,360 --> 00:04:05,760
+mid-range cone which allows the speakers
+
+114
+00:04:05,760 --> 00:04:08,720
+to disperse sound evenly throughout any
+
+115
+00:04:08,720 --> 00:04:11,040
+room therefore eliminating that singular
+
+116
+00:04:11,040 --> 00:04:13,640
+Sweet Spot issue that impacts most other
+
+117
+00:04:13,640 --> 00:04:15,920
+speakers on the market plus the sound
+
+118
+00:04:15,920 --> 00:04:18,279
+quality that they produce is on another
+
+119
+00:04:18,279 --> 00:04:19,959
+level I've actually been using them at
+
+120
+00:04:19,959 --> 00:04:22,120
+my editing desk for the past 2 months
+
+121
+00:04:22,120 --> 00:04:24,680
+and man they sound incredible here have
+
+122
+00:04:24,680 --> 00:04:26,080
+a
+
+123
+00:04:26,080 --> 00:04:31,600
+listen I know sometimes life can be
+
+124
+00:04:32,510 --> 00:04:35,360
+[Music]
+
+125
+00:04:35,360 --> 00:04:37,800
+and you feel like you're
+
+126
+00:04:37,800 --> 00:04:40,320
+just to learn more about them or to pick
+
+127
+00:04:40,320 --> 00:04:41,840
+up a pair for yourself use the first
+
+128
+00:04:41,840 --> 00:04:44,479
+link down in the description
+
+129
+00:04:44,479 --> 00:04:47,160
+below okay halfway down the list and a
+
+130
+00:04:47,160 --> 00:04:49,360
+long time ago I featured a weather app
+
+131
+00:04:49,360 --> 00:04:51,440
+on the channel called geometric weather
+
+132
+00:04:51,440 --> 00:04:53,160
+which I know for a fact was a lot of
+
+133
+00:04:53,160 --> 00:04:55,039
+users favorite weather app simply
+
+134
+00:04:55,039 --> 00:04:57,560
+because of how incredible the design was
+
+135
+00:04:57,560 --> 00:04:59,720
+unfortunately development on that app Di
+
+136
+00:04:59,720 --> 00:05:01,440
+a number of years back and it's no
+
+137
+00:05:01,440 --> 00:05:03,280
+longer available to pick up on the
+
+138
+00:05:03,280 --> 00:05:05,080
+Google Play Store and so that's where
+
+139
+00:05:05,080 --> 00:05:07,600
+Breezy weather comes in this app is
+
+140
+00:05:07,600 --> 00:05:09,440
+actually a fork of the beautifully
+
+141
+00:05:09,440 --> 00:05:11,639
+designed geometric weather but it adds
+
+142
+00:05:11,639 --> 00:05:13,680
+in a little bit of its own flare a bunch
+
+143
+00:05:13,680 --> 00:05:16,000
+of extra features and a set of super
+
+144
+00:05:16,000 --> 00:05:18,199
+claim widgets to go with and that's
+
+145
+00:05:18,199 --> 00:05:19,960
+about it but it's nice to know that we
+
+146
+00:05:19,960 --> 00:05:22,280
+finally have a suitable replacement to
+
+147
+00:05:22,280 --> 00:05:24,840
+what was once a much loved weather app
+
+148
+00:05:24,840 --> 00:05:27,240
+then we have Unified Remote which is a
+
+149
+00:05:27,240 --> 00:05:29,120
+super handy app that lets you transform
+
+150
+00:05:29,120 --> 00:05:31,400
+your phone into an all-in-one remote for
+
+151
+00:05:31,400 --> 00:05:33,440
+your computer you just download and
+
+152
+00:05:33,440 --> 00:05:35,639
+install the Unified Remote server onto
+
+153
+00:05:35,639 --> 00:05:37,639
+your computer from their website and
+
+154
+00:05:37,639 --> 00:05:39,520
+from there as long as your devices are
+
+155
+00:05:39,520 --> 00:05:41,759
+connected to the same Wi-Fi network
+
+156
+00:05:41,759 --> 00:05:43,560
+you'll be able to use any of these
+
+157
+00:05:43,560 --> 00:05:45,960
+remote options to control your computer
+
+158
+00:05:45,960 --> 00:05:48,080
+from your phone you can use this basic
+
+159
+00:05:48,080 --> 00:05:49,919
+input option to use your phone as a
+
+160
+00:05:49,919 --> 00:05:52,000
+wireless mouse or keyboard you can use
+
+161
+00:05:52,000 --> 00:05:53,600
+the file manager option to browse
+
+162
+00:05:53,600 --> 00:05:55,600
+through the various files stored on your
+
+163
+00:05:55,600 --> 00:05:57,720
+computer plus there's also a media
+
+164
+00:05:57,720 --> 00:05:59,000
+remote great for controlling
+
+165
+00:05:59,000 --> 00:06:00,080
+presentation
+
+166
+00:06:00,080 --> 00:06:02,039
+and this power mode for controlling a
+
+167
+00:06:02,039 --> 00:06:04,039
+bunch of these power options related to
+
+168
+00:06:04,039 --> 00:06:05,800
+your computer it's jam-packed with
+
+169
+00:06:05,800 --> 00:06:08,039
+features dead easy to set up and more
+
+170
+00:06:08,039 --> 00:06:10,319
+than that it's just really dang useful
+
+171
+00:06:10,319 --> 00:06:13,000
+as well and then after that is pixel
+
+172
+00:06:13,000 --> 00:06:15,240
+expert which is a root only application
+
+173
+00:06:15,240 --> 00:06:17,319
+that I did recently feature in my 10
+
+174
+00:06:17,319 --> 00:06:19,240
+reasons to root your phone video but
+
+175
+00:06:19,240 --> 00:06:21,039
+it's just so powerful that I wanted to
+
+176
+00:06:21,039 --> 00:06:23,520
+include it in today's video as well now
+
+177
+00:06:23,520 --> 00:06:25,800
+on top of being a root only app pixel
+
+178
+00:06:25,800 --> 00:06:28,280
+expert is also designed to work best
+
+179
+00:06:28,280 --> 00:06:31,160
+with AOSP or pixel-based ROMs so keep
+
+180
+00:06:31,160 --> 00:06:33,199
+that in mind but with the app installed
+
+181
+00:06:33,199 --> 00:06:35,400
+you'll find that it is absolutely packed
+
+182
+00:06:35,400 --> 00:06:37,720
+to the brim with customization options
+
+183
+00:06:37,720 --> 00:06:39,000
+that'll help you to take your phone's
+
+184
+00:06:39,000 --> 00:06:41,240
+functionality to the next level there's
+
+185
+00:06:41,240 --> 00:06:42,880
+an option to show the brightness slider
+
+186
+00:06:42,880 --> 00:06:44,720
+when you first swipe into your quick
+
+187
+00:06:44,720 --> 00:06:46,520
+settings panel or to move it to the
+
+188
+00:06:46,520 --> 00:06:48,840
+bottom you can use this setting to
+
+189
+00:06:48,840 --> 00:06:51,199
+completely hide your navigation bar or
+
+190
+00:06:51,199 --> 00:06:52,960
+to remove the circle from behind the
+
+191
+00:06:52,960 --> 00:06:54,880
+fingerprint sensor icon on your lock
+
+192
+00:06:54,880 --> 00:06:57,639
+screen and perhaps my favorite feature
+
+193
+00:06:57,639 --> 00:06:59,440
+is that it even lets you set up this
+
+194
+00:06:59,440 --> 00:07:01,240
+slidable flashlight Quick Settings
+
+195
+00:07:01,240 --> 00:07:04,560
+toggle which I use all the
+
+196
+00:07:04,560 --> 00:07:07,199
+time all right second to last today is
+
+197
+00:07:07,199 --> 00:07:10,639
+pix dos kwgt a widget pack filled to the
+
+198
+00:07:10,639 --> 00:07:13,240
+brim with tons of beautiful material
+
+199
+00:07:13,240 --> 00:07:15,759
+inspired widgets now granted the various
+
+200
+00:07:15,759 --> 00:07:17,520
+widget options that Google has been
+
+201
+00:07:17,520 --> 00:07:19,919
+adding over the years since Android 12
+
+202
+00:07:19,919 --> 00:07:22,360
+are pretty neat but in all honesty
+
+203
+00:07:22,360 --> 00:07:24,160
+there's just so few of them and there's
+
+204
+00:07:24,160 --> 00:07:26,280
+also no way to customize them to make
+
+205
+00:07:26,280 --> 00:07:27,879
+sure that they truly suit your home
+
+206
+00:07:27,879 --> 00:07:30,280
+screen setup and so that's where pix
+
+207
+00:07:30,280 --> 00:07:32,720
+dots comes in not only does it allay you
+
+208
+00:07:32,720 --> 00:07:34,479
+to have granular control over the
+
+209
+00:07:34,479 --> 00:07:36,599
+material-based widgets that it offers
+
+210
+00:07:36,599 --> 00:07:38,680
+but as at the making of this video the
+
+211
+00:07:38,680 --> 00:07:42,160
+pack comes with over 130 unique widgets
+
+212
+00:07:42,160 --> 00:07:44,319
+to choose from giving you a huge amount
+
+213
+00:07:44,319 --> 00:07:46,520
+of options to make your home screen look
+
+214
+00:07:46,520 --> 00:07:48,639
+exactly how you want it to I actually
+
+215
+00:07:48,639 --> 00:07:50,520
+made this neat home screen combo using
+
+216
+00:07:50,520 --> 00:07:55,240
+widgets 92 55 119 and 68 respectively
+
+217
+00:07:55,240 --> 00:07:56,840
+some of which I've then gone in and
+
+218
+00:07:56,840 --> 00:07:59,319
+edited myself as well so it truly is an
+
+219
+00:07:59,319 --> 00:08:01,199
+an amazing way to make your home screen
+
+220
+00:08:01,199 --> 00:08:04,240
+look incredibly slick and unique and so
+
+221
+00:08:04,240 --> 00:08:06,680
+finally today we have super list a
+
+222
+00:08:06,680 --> 00:08:08,919
+fantastic app for creating and managing
+
+223
+00:08:08,919 --> 00:08:11,680
+lists of any kind the app is divided
+
+224
+00:08:11,680 --> 00:08:14,319
+into four key sections this homepage
+
+225
+00:08:14,319 --> 00:08:17,199
+then there's an inbox page a tasks page
+
+226
+00:08:17,199 --> 00:08:19,080
+and a messages page but whenever you
+
+227
+00:08:19,080 --> 00:08:20,960
+want to make any sort of list like a
+
+228
+00:08:20,960 --> 00:08:22,840
+shopping list or a list of books that
+
+229
+00:08:22,840 --> 00:08:24,560
+you've read throughout the year or even
+
+230
+00:08:24,560 --> 00:08:25,960
+a list of habits that you want to work
+
+231
+00:08:25,960 --> 00:08:28,360
+on over the next year or so the idea is
+
+232
+00:08:28,360 --> 00:08:30,599
+that you use super list to create and
+
+233
+00:08:30,599 --> 00:08:33,000
+manage them all in the one place and I
+
+234
+00:08:33,000 --> 00:08:35,000
+really enjoy how simple the app can be
+
+235
+00:08:35,000 --> 00:08:37,000
+if you just want to use it a simple list
+
+236
+00:08:37,000 --> 00:08:38,719
+management but then if you feel so
+
+237
+00:08:38,719 --> 00:08:40,760
+inclined you can take the app to another
+
+238
+00:08:40,760 --> 00:08:43,200
+level all together by creating teams
+
+239
+00:08:43,200 --> 00:08:45,240
+inviting other users to join your teams
+
+240
+00:08:45,240 --> 00:08:47,480
+and then by assigning specific tasks or
+
+241
+00:08:47,480 --> 00:08:49,600
+lists to team members which is some
+
+242
+00:08:49,600 --> 00:08:52,279
+serious functionality and so there you
+
+243
+00:08:52,279 --> 00:08:54,160
+have it 10 applications that I reckon
+
+244
+00:08:54,160 --> 00:08:56,080
+are pretty dang cool if you enjoy the
+
+245
+00:08:56,080 --> 00:08:58,320
+video then a sub to the channel would be
+
+246
+00:08:58,320 --> 00:09:00,399
+amazing but that's it thank you all very
+
+247
+00:09:00,399 --> 00:09:04,720
+much for watching and I will catch you
+
+248
+00:09:06,320 --> 00:09:21,399
+[Music]
+
+249
+00:09:21,399 --> 00:09:24,399
+later
+

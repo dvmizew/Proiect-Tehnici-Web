@@ -153,3 +153,56 @@ body {
 .taburi-iframe > a:not(:last-child) {
     margin-right: 10px;
 }
+
+#video-player::cue {
+    background: var(--culoare-inchisa);
+    color: var(--culoare-deschisa);
+    text-shadow: 2px 2px 2px var(--culoare-inchisa);
+}
+
+a:visited {
+    color: var(--culoare-background-5);
+}
+
+a[href^="http"] {
+    position: relative;
+    color: var(--culoare-text);
+}
+
+a[href^="http"]::before {
+    content: "⮳";
+    font-size: 150%;
+    position: absolute;
+    left: -1em;
+    transition: color 0.3s ease;
+}
+
+a[href^="http"]:hover::before {
+    color: var(--culoare-background-4);
+}
+
+#grid-pagina a {
+    position: relative;
+    color: var(--culoare-text);
+}
+
+#grid-pagina a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-image: radial-gradient(circle, var(--culoare-background-3) 0%, var(--culoare-background-3) 40%, transparent 80%, transparent 100%);
+    background-position: center;
+    background-size: 0;
+    transition: background-size 0.3s ease;
+}
+
+#grid-pagina a:hover::before {
+    background-size: 200%;
+}
+
+a:active {
+    outline: 2px solid var(--culoare-border);
+}
