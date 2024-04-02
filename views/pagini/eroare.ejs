@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ro">
+<%- include("../fragmente/head.ejs"); %>
+    <body>
+        <%- include("../fragmente/header.ejs"); %>
+            <main>
+                <div id="err-coloane">
+                    <div id="err-imag">
+                        <img src="<%- locals.imagine %>" />
+                    </div>
+                    <section>
+                        <h2><%- locals.titlu %></h2>
+                        <p><%- locals.text %></p>
+                    </section>
+                </div>
+            </main>
+            <!-- <%- include("../fragmente/footer.ejs");  %> -->
+    </body>
+</html>
