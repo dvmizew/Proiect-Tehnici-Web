@@ -41,9 +41,28 @@
             </section>
             <section id="calendar">
                 <h2>Calendar</h2>
-                <iframe id="calendar-iframe"
-                    src="https://calendar.google.com/calendar/embed?src=ro.romanian%23holiday%40group.v.calendar.google.com&ctz=Europe%2FBucharest">
-                </iframe>
+                <ul>
+                    <li>
+                        <h3>Anunț 1</h3>
+                        <p>Detalii despre anunțul 1...</p>
+                        <p>Data: 2022-01-01</p>
+                    </li>
+                    <li>
+                        <h3>Anunț 2</h3>
+                        <p>Detalii despre anunțul 2...</p>
+                        <p>Data: 2022-01-02</p>
+                    </li>
+                    <li>
+                        <h3>Eveniment 1</h3>
+                        <p>Detalii despre evenimentul 1...</p>
+                        <p>Data: 2022-01-03</p>
+                    </li>
+                    <li>
+                        <h3>Eveniment 2</h3>
+                        <p>Detalii despre evenimentul 2...</p>
+                        <p>Data: 2022-01-04</p>
+                    </li>
+                </ul>
             </section>
 
             <section id="tabel">
@@ -171,15 +190,6 @@
                     <li>Stocare securizată a datelor</li>
                     <li>Monitorizare și suport server 24/7</li>
                 </ul>
-                <h2>Videoclip</h2>
-                <video id="video-player" controls poster="/resurse/videos/thumbnails/poster_video.jpg" preload="none"
-                    width="100%" min-width="300px" max-width="800px">
-                    <source src="/resurse/videos/video.mp4" type="video/mp4">
-                    <source src="/resurse/videos/video.webm" type="video/webm">
-                    <track src="/resurse/videos/subs/ro.srt" kind="subtitles" srclang="ro" label="Română" default>
-                    <track src="/resurse/videos/subs/eng.srt" kind="subtitles" srclang="en" label="English">
-                    Your browser does not support the video tag.
-                </video>
             </section>
 
             <section id="lista-useri">
@@ -200,6 +210,15 @@
                 </ul>
             </section>
         </main>
+        <h2>Videoclip</h2>
+        <video id="video-player" controls poster="/resurse/videos/thumbnails/poster_video.jpg" preload="none"
+            width="100%" min-width="300px" max-width="800px">
+            <source src="/resurse/videos/video.mp4" type="video/mp4">
+            <source src="/resurse/videos/video.webm" type="video/webm">
+            <track src="/resurse/videos/subs/ro.srt" kind="subtitles" srclang="ro" label="Română" default>
+            <track src="/resurse/videos/subs/eng.srt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video tag.
+        </video>
         <%- include("../fragmente/footer.ejs") %>
 </body>
 

@@ -8,6 +8,7 @@ body {
     --culoare-background-4: #FF6347;
     --culoare-background-5: #FF4500;
     --culoare-rosu: rgb(196, 1, 1);
+    --culoare-box-shadow: rgba(0, 0, 0, 0.1);
     --dim-spatiere: 20px;
     padding-left: var(--dim-spatiere);
     padding-right: var(--dim-spatiere);
@@ -53,7 +54,7 @@ footer {
     color: white;
     border-top: 5px solid var(--culoare-border);
     border-radius: 10px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -4px 8px var(--culoare-box-shadow);
 }
 
 footer p {

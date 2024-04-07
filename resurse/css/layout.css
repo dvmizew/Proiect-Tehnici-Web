@@ -6,12 +6,56 @@ html {
     display: grid;
     gap: 10px;
     outline: 2px solid var(--culoare-background-2);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
-      "welcome welcome welcome welcome"
-      "calendar tabel tabel anunturi"
-      "promotii promotii promotii"
-      "info-server info-server lista-useri stats"
-      "footer footer footer footer";
+        "welcome welcome welcome welcome"
+        "calendar calendar tabel anunturi"
+        "promotii promotii promotii promotii"
+        "info-server info-server lista-useri stats"
+        "footer footer footer footer";
+}
+
+#calendar {
+    grid-area: calendar;
+    border-radius: 10px;
+    padding: var(--dim-spatiere);
+    box-shadow: 0 4px 8px var(--culoare-box-shadow);
+    overflow-x: auto;
+}
+
+#calendar h2 {
+    color: var(--culoare-text);
+    font-size: 24px;
+    margin-bottom: var(--dim-spatiere);
+}
+
+#calendar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#calendar li {
+    border-bottom: 1px solid var(--culoare-border);
+    padding: 10px 0;
+}
+
+#calendar li h3 {
+    color: var(--culoare-highlight);
+    font-size: 20px;
+}
+
+#calendar li p {
+    color: var(--culoare-text);
+    margin: 5px 0;
+}
+
+#tabel {
+    grid-area: tabel;
+}
+
+#anunturi {
+    grid-area: anunturi;
 }
 
 #grid-pagina > * {
@@ -29,7 +73,24 @@ html {
 }
 
 #welcome {
+    grid-area: welcome;
     padding: 50px;
+}
+
+#grid-pagina > #anunturi {
+    grid-area: anunturi;
+}
+
+#grid-pagina > #info-server {
+    grid-area: info-server;
+}
+
+#grid-pagina > #lista-useri {
+    grid-area: lista-useri;
+}
+
+#grid-pagina > #stats {
+    grid-area: stats;
 }
 
 .z-pattern-container {
@@ -53,6 +114,7 @@ html {
 }
 
 #header {
+    grid-area: header;
     background-color: var(--culoare-background-2);
     color: #fff;
     text-align: center;
@@ -61,7 +123,7 @@ html {
     z-index: 1000;
     border-bottom: 5px solid var(--culoare-border);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--culoare-box-shadow);
 }
 
 @media screen and (min-width: 768px) {
