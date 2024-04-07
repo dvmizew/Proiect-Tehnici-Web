@@ -50,10 +50,6 @@ html {
     margin: 5px 0;
 }
 
-#tabel {
-    grid-area: tabel;
-}
-
 #anunturi {
     grid-area: anunturi;
 }
@@ -65,11 +61,6 @@ html {
 
 #grid-pagina > figure {
     margin: 0;
-}
-
-#grid-pagina > #calendar {
-    grid-area: calendar;
-    overflow-x: auto;
 }
 
 #welcome {
