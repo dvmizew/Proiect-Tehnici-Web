@@ -11,11 +11,11 @@
 
 <body>
     <%- include("../fragmente/header.ejs") %>
-    <div id = "banner">Radu Daniel - Dumitru</div>
-    <div id = "watermark">
-        <p>Radu</p>
-        <p>Daniel - Dumitru</p>
-    </div>
+        <div id="banner">Radu Daniel - Dumitru</div>
+        <div id="watermark">
+            <p>Radu</p>
+            <p>Daniel - Dumitru</p>
+        </div>
         <main id="grid-pagina">
             <section id="welcome">
                 <div class="z-pattern-container">
@@ -24,6 +24,7 @@
                     </div>
                     <div class="z-pattern-text">
                         <h2>Bine ați venit!</h2>
+                        <button type="button" class="btn btn-primary btn-lg">Stil-1-mare</button>
                         <p>IP: <%- locals.IP %></p>
                         Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet.
                         De
@@ -210,6 +211,25 @@
                 </ul>
             </section>
         </main>
+        <section id="galerie-statica">
+            <h2>Galerie</h2>
+            <div id="grid-galerie">
+                <% var vLuni=["ianuarie", "februarie" , "martie" , "aprilie" , "iunie" , "iulie" ]; var d=new Date(); 
+                var lunaCurenta=vLuni[d.getMonth()]; for (let imag of locals.imagini) { if (imag?.luni?.includes(lunaCurenta)) {
+                    %>
+                    <figure>
+                        <picture>
+                            <source srcset="<%= imag.fisier_mediu %>" media="(max-width:1200px)" />
+                            <img src="<%= imag.fisier %>" alt="prajituri">
+                        </picture>
+                        <figcaption>
+                            <%= imag.descriere%>
+                        </figcaption>
+                    </figure>
+                    <% } %>
+                        <% } %>
+            </div>
+        </section>
         <h2>Videoclip</h2>
         <video id="video-player" controls poster="/resurse/videos/thumbnails/poster_video.jpg" preload="none"
             width="100%" min-width="300px" max-width="800px">
