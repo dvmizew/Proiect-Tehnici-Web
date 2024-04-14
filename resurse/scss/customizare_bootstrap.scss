@@ -1,5 +1,35 @@
-@use '../../node_modules/bootstrap/scss/bootstrap.scss' with 
-(
-    $primary: red,
-    $secondary:purple
-)
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+$primary-color: #FF6347;
+$secondary-color: #FF7F50;
+$body-color: #333333;
+
+$theme-colors: (
+    "primary": $primary-color,
+    "secondary": $secondary-color
+);
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$background-color-1: #F2F2F2;
+$background-color-2: #FFA500;
+$background-color-3: #FF7F50;
+$background-color-4: #FF6347;
+$background-color-5: #FF4500;
+
+$text-color: #333333;
+$text-color-selected: #FF6347;
+
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+
+.btn {
+    color: $text-color;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+}
+
+.card {
+    border-radius: 10px;
+}
