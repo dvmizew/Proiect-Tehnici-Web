@@ -209,6 +209,46 @@ a[href^="http"]:hover::before {
     background-image: radial-gradient(circle, var(--culoare-background-3) 0%, var(--culoare-background-3) 40%, transparent 80%, transparent 100%);
 }
 
+#lista-useri {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid var(--culoare-text);
+}
+
+#lista-useri li {
+    margin-bottom: 20px;
+}
+
+::selection {
+    background-color: var(--culoare-rosu);
+    color: var(--culoare-deschisa);
+}
+
+@media (max-width: 600px) {
+    #tab-orar {
+        font-size: 0.8em;
+    }
+    #tab-orar tbody td,
+    #tab-orar thead th {
+        display: block;
+    }
+    #tab-orar tbody td:nth-child(even),
+    #tab-orar tbody td:nth-child(odd) {
+        border: none;
+        border-bottom: 1px solid var(--culoare-inchisa);
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+    #tab-orar tbody td:before {
+        position: absolute;
+        top: 50%;
+        left: 6px;
+        transform: translateY(-50%);
+        content: attr(data-label);
+    }
+}
+
 hr {
     height: 10px;
     background-image: linear-gradient(to right,
@@ -280,4 +320,50 @@ hr {
 #text:hover,
 #text-reflectat:hover {
     color: var(--culoare-rosu);
+}
+
+#grid-galerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+#grid-galerie figure {
+    position: relative;
+    overflow: hidden;
+    filter: sepia(100%);
+    transition: filter 0.8s;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#grid-galerie img {
+    width: 100%;
+    height: auto;
+}
+
+#grid-galerie figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--culoare-alb);
+    padding: 10px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.8s, color 0.8s, text-shadow 0.8s;
+    text-shadow: 0 0 0 var(--culoare-inchisa);
+}
+
+#grid-galerie figure:hover img {
+    filter: sepia(0%);
+}
+
+#grid-galerie figure:hover figcaption {
+    opacity: 1;
+    color: var(--culoare-inchisa);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
