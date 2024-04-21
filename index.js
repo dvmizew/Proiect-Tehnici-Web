@@ -3,7 +3,22 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 const sass = require('sass');
-// const ejs=require('ejs');
+const ejs = require('ejs');
+
+const Client = require('pg').Client;
+
+var client = new Client({
+    database: "cti_2024",
+    user: "dvmi",
+    password: "ciscosecpa55",
+    host: "localhost",
+    port: 5432
+});
+client.connect();
+
+client.query("select * from prajituri", function (err, rez) {
+    console.log(rez);
+});
 
 obGlobal = {
     obErori: null,
@@ -56,7 +71,30 @@ app.get("/suma/:a/:b", function (req, res) {
 
 app.get("/favicon.ico", function (req, res) {
     res.sendFile(path.join(__dirname, "resurse/favicon/favicon.ico"));
+})
 
+app.get("/produse", function (req, res) {
+    client.query("select * from prajituri", function (err, rez) {
+        if (err) {
+            console.log(err);
+            afisareEroare(res, 2);
+        }
+        else {
+            res.render("pagini/produse", { produse: rez.rows, optiuni: [] });
+        }
+    });
+})
+
+app.get("/produs/:id", function (req, res) {
+    client.query(`select * from prajituri where id = ${req.params.id}`, function (err, rez) {
+        if (err) {
+            console.log(err);
+            afisareEroare(res, 2);
+        }
+        else {
+            res.render("pagini/produs", { prod: rez.rows[0] });
+        }
+    });
 })
 
 app.get("/*.ejs", function (req, res) {
