@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html  lang="ro">
-    <head>
-        <meta name="description" content="Cofetaria Dulcelind ofera prajituri, torturi, produse de patiserie cu optiunea de achizitie online si livrare prin curier.">
-        <meta name="keywords" content="cofetarie, Dulcelind, prajituri, torturi, dulce, pateuri, produse">
-        
-        <title>Cofetăria Dulcelind - home</title>
-        <%- include("../fragmente/head") %>     
-        <link href="/resurse/css/produs.css" type="text/css" rel="stylesheet" />
-    </head>
-    <body>
-    <%- include("../fragmente/header") %>
+<html lang="ro">
 
-    <main>
-        <section>
-            <h2>Pagină produs</h2>
+<head>
+    <% include("../fragmente/head.ejs") %>
+        <title>Magazin de conectică</title>
+        <meta name="keywords" content="Conectica, Retelistica, Cabluri, Accesorii, Echipamente">
+        <meta name="description"
+            content="Magazin de conectica, Adaptoare, Retelistica. Transport Gratuit la comenzi de peste 50 de lei.">
+        <link rel="stylesheet" href="/resurse/css/produs.css" type="text/css" />
+        <% include("../fragmente/head.ejs") %>
+        <script type="text/javascript" src="/resurse/js/produse.js"></script>
+</head>
+<body>
+    <%- include("../fragmente/header") %>
+        <main>
+            <section>
+                <h2>Pagină produs</h2>
                 <article id="art-produs">
                     <h3><span class="nume"><%- locals.prod.nume %></span></h3>
                     <p>Pret: <span class="pret"><%- locals.prod.pret %> </span></p>
@@ -25,13 +27,13 @@
                     <p>Pentru diabetici: <span class="pt_diabetici"><%- locals.prod.pt_diabetici %> </span></p>
                     <p>Data adăugare: <span class="categorie"><%- locals.prod.data_adaugare %> </span></p>
                     <figure class="imag-produs">
-                        <img  src="/resurse/imagini/produse/<%- locals.prod.imagine %>" alt="[imagine <%- locals.prod.nume %>]" />
-                    </figure>    
+                        <img src="/resurse/imagini/produse/<%- locals.prod.imagine %>"
+                            alt="[imagine <%- locals.prod.nume %>]" />
+                    </figure>
                 </article>
-            
-        </section>
-    </main>
 
-    <%- include("../fragmente/footer") %>
-    </body>
+            </section>
+        </main>
+        <%- include("../fragmente/footer") %>
+</body>
 </html>

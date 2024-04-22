@@ -86,7 +86,6 @@ app.get("/produse", function (req, res) {
         conditieQuery = ` where tip_produs='${req.query.tip}'`
     }
     client.query("select * from unnest(enum_range(null::categorie_produs))", function (err, rezOptiuni) {
-
         client.query(`select * from products ${conditieQuery}`, function (err, rez) {
             if (err) {
                 console.log(err);

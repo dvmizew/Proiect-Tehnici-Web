@@ -2,42 +2,28 @@
 <html lang="ro">
 
 <head>
-    <%- include("../fragmente/head.ejs") %>
+    <% include("../fragmente/head.ejs") %>
         <title>Magazin de conectică</title>
         <meta name="keywords" content="Conectica, Retelistica, Cabluri, Accesorii, Echipamente">
         <meta name="description"
             content="Magazin de conectica, Adaptoare, Retelistica. Transport Gratuit la comenzi de peste 50 de lei.">
         <link rel="stylesheet" href="/resurse/css/produse.css" type="text/css" />
-        <%- include("../fragmente/head.ejs") %>
-        <script type="text/javascript" src=/resurse/js/produse.js></script>
+        <% include("../fragmente/head.ejs") %>
+            <script type="text/javascript" src="/resurse/js/produse.js"></script>
 </head>
 <body>
-    <%- include("../fragmente/header.ejs") %>
+    <% include("../fragmente/header.ejs") %>
         <main>
-            <label> Nume: <input type="text" id="inp-nume"></label>
-            <!--<label> Maxim calorii: <input type="number" id="inp-calorii" value="10000"></label>-->
-            <div> Calorii:<!-- trebuie sa aiba acelasi name ca sa formeze un grup -->
-                <p><label>Dietetic (calorii &lt; 350)
-                        <input id="i_rad1" name="gr_rad" value="0:350" type="radio" />
-                    </label></p>
-                <p><label>Mediu (350 &le; calorii &lt; 700)
-                        <input id="i_rad2" name="gr_rad" value="350:750" type="radio" />
-                    </label></p>
-                <p><label>Ridicat caloric (700 &le; calorii)
-                        <input id="i_rad3" name="gr_rad" value="700:1000000000" type="radio" />
-                    </label></p>
-                <p><label>Toate
-                        <input id="i_rad4" checked name="gr_rad" value="toate" type="radio" />
-                    </label></p>
-            </div>
-            <label> Pret minim: <input type="range" id="inp-pret" value="0" min="0" max="70"> <span
+            <label>Nume: <input type="text" id="inp-nume"></label>
+            <label>Pret minim: <input type="range" id="inp-pret" value="0" min="0" max="70"> <span
                     id="infoRange">(0)</span></label>
-            <label>Select simplu:
+            <label>Selectează categorie:
                 <select id="inp-categorie">
-                    <option id="sel-toate" selected value="toate">toate</option>
-                    <% for (let opt of locals.optiuni) { %>
-                        <option value="<%- opt.unnest %>"><%- opt.unnest %> </option>
-                    <% } %>
+                    <option id="sel-toate" selected value="toate">Toate</option>
+                    <option value="Retelistica">Retelistica</option>
+                    <option value="Adaptoare">Adaptoare</option>
+                    <option value="Cabluri">Cabluri</option>
+                    <option value="Accesorii">Accesorii</option>
                 </select>
             </label>
             <p>
@@ -50,30 +36,30 @@
             <section id="produse">
                 <h2>Produse</h2>
                 <div class="grid-produse">
-                    <% for( let prod of locals.produse) { %>
+                    <% for (let prod of locals.produse) { %>
                         <article class="produs">
-                            <h3 class="nume">Nume: <a href="/produs/<%-prod.id %>"><span class="val-nume"><%-
-                                            prod.nume%></span></a></h3>
+                            <h3 class="nume">Nume: <a href="/produs/<%- prod.id %>"><span class="val-nume"><%- prod.nume
+                                            %></span></a></h3>
                             <div class="info-prod">
-                                <p class="pret">Pret: <span class="val-pret"><%- prod.pret%></span></p>
+                                <p class="pret">Pret: <span class="val-pret"><%- prod.pret %></span></p>
                                 <p class="categorie">Categorie: <span class="val-categorie"><%- prod.categorie_produs
                                             %></span></p>
                                 <p class="descriere">Descriere: <span class="val-descriere"><%- prod.descriere %></span>
                                 </p>
                             </div>
                             <figure>
-                                <a href="/produs/<%-prod.id %>"><img src="/resurse/imagini/produse/<%- prod.imagine %>"
+                                <a href="/produs/<%- prod.id %>"><img src="/resurse/imagini/produse/<%- prod.imagine %>"
                                         style="width:50%;height:auto;" alt="[imagine <%- prod.nume %>]" /></a>
                             </figure>
                             <label class="selecteaza-cos">
                                 Selectează:<br />
-                                <input type="checkbox" class="select-cos" value="<%-prod.id %>" autocomplete="off">
+                                <input type="checkbox" class="select-cos" value="<%- prod.id %>" autocomplete="off">
                             </label>
                         </article>
                         <% } %>
                 </div>
             </section>
         </main>
-        <%- include("../fragmente/footer") %>
+        <% include("../fragmente/footer") %>
 </body>
 </html>
