@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
                 produs.style.display = "block";
             }
             else {
-                produs.style.display = "block";
+                produs.style.display = "none";
             }
         }
     }
