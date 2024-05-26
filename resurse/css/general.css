@@ -4,10 +4,38 @@ body {
     --culoare-deschisa: white;
     --culoare-text: #333333;
     --culoare-text-selectat: #FF6347;
-
     --spatiere: 100px;
     padding-left: var(--spatiere);
     padding-right: var(--spatiere);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-theme {
+    --background-color: white;
+    --text-color: var(--culoare-text);
+}
+
+body.dark-theme {
+    --background-color: #070C0D;
+    --text-color: white;
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+#theme-toggle:hover {
+    color: var(--culoare-text-selectat);
 }
 
 #link-top {
