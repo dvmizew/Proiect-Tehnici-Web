@@ -22,7 +22,7 @@ body.dark-theme {
     --text-color: white;
 }
 
-#theme-toggle {
+#tema {
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -34,7 +34,7 @@ body.dark-theme {
     transition: color 0.3s;
 }
 
-#theme-toggle:hover {
+#tema:hover {
     color: var(--culoare-text-selectat);
 }
 
