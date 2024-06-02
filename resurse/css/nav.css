@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   --culoare-text: #333333;
   --culoare-border: #FFA500;
@@ -7,6 +8,7 @@ body {
   --culoare-background-3: #FF7F50;
   --culoare-background-4: #FF6347;
   --culoare-background-5: #FF4500;
+  --culoare-deschisa: #ffffff;
   --culoare-rosu: rgb(196, 1, 1);
   --dim-spatiere: 20px;
   padding-left: var(--dim-spatiere);
@@ -19,54 +21,63 @@ nav {
   --latime-buton: 150px;
   height: var(--inaltime-meniu);
   background-color: var(--culoare-background-2);
+  position: relative;
 }
-
-#hamburger {
+nav #hamburger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5em;
+  height: 2.5em;
+  background: var(--culoare-background-2) url("/resurse/imagini/Hamburger_icon_alb.png") center/contain no-repeat;
+  transition: transform 0.5s ease-in-out;
+}
+nav #ch-menu {
   display: none;
 }
-
-#ch-menu {
+nav #acasa-mediu {
   display: none;
 }
-
-#acasa-mediu {
-  display: none;
-}
-
-.meniu {
+nav .meniu {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
   background-color: var(--culoare-background-2);
 }
-.meniu ul {
+nav .meniu ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   background-color: var(--culoare-background-2);
   display: none;
 }
-.meniu li {
+nav .meniu li {
   border: 1px solid var(--culoare-background-2);
   width: var(--latime-buton);
   height: var(--inaltime-meniu);
   text-align: center;
   box-sizing: border-box;
   position: relative;
+  cursor: pointer;
 }
-.meniu li a {
+nav .meniu li a,
+nav .meniu li div {
   display: block;
   width: 100%;
   height: 100%;
-  cursor: pointer;
   line-height: var(--inaltime-meniu);
   color: var(--culoare-deschisa);
   text-decoration: none;
   box-sizing: border-box;
-  transition: all 1s linear;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
 }
-.meniu li a::before {
+nav .meniu li a::before,
+nav .meniu li div::before {
   content: "";
   position: absolute;
   top: 0;
@@ -78,29 +89,30 @@ nav {
   transition: transform 0.5s ease-in-out;
   z-index: -1;
 }
-.meniu li a:hover::before {
+nav .meniu li a:hover::before,
+nav .meniu li div:hover::before {
   transform: scale(1);
 }
-.meniu li ul {
+nav .meniu li ul {
   transform: scale(0);
   transform-origin: top left;
   transition: transform 0.5s ease-in-out;
 }
-.meniu li ul li:hover {
+nav .meniu li ul li:hover {
   color: var(--culoare-highlight);
 }
-.meniu li:hover ul {
+nav .meniu li:hover ul {
   transform: scale(1);
 }
-.meniu li:hover > div {
+nav .meniu li:hover > div {
   background-color: var(--culoare-background-2);
   color: var(--culoare-highlight);
 }
-.meniu li:hover > a {
+nav .meniu li:hover > a {
   background-color: var(--culoare-background-2);
-  color: var(--culoare-deschisa);
+  color: var(--culoare-highlight);
 }
-.meniu li:hover > ul {
+nav .meniu li:hover > ul {
   display: block;
   position: absolute;
   top: 100%;
@@ -108,17 +120,55 @@ nav {
   z-index: 100;
   transform-origin: center top;
 }
-.meniu li div {
-  display: block;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  line-height: var(--inaltime-meniu);
-  color: var(--culoare-deschisa);
-  text-decoration: none;
-  box-sizing: border-box;
-  transition: all 1s linear;
-}
-.meniu > li {
+nav .meniu > li {
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  nav .meniu {
+    display: none;
+    flex-direction: column;
+  }
+  nav .meniu li {
+    display: block;
+    width: 100%;
+  }
+  nav .meniu li ul {
+    position: static;
+    transform: scale(1);
+    transition: max-height 0.5s ease;
+    max-height: 0;
+    overflow: hidden;
+  }
+  nav .meniu li ul li {
+    display: block;
+  }
+  nav .meniu li:hover ul {
+    max-height: 500px;
+  }
+  nav .meniu li > div {
+    position: relative;
+  }
+  nav .meniu li > div::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0);
+    transition: transform 0.5s ease;
+  }
+  nav .meniu li > div:hover::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  nav #hamburger {
+    display: block;
+  }
+  nav #ch-menu:checked ~ .meniu {
+    display: flex;
+  }
+  nav #ch-menu:checked ~ .meniu #hamburger {
+    transform: translateX(10px);
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */
