@@ -28,14 +28,17 @@
                     <div class="z-pattern-text">
                         <h2>Bine ați venit!</h2>
                         <%- include("../fragmente/formular-login.ejs") %>
-                        <button type="button" class="btn btn-primary btn-lg">Stil-1-mare</button>
-                        <p>IP: <%- locals.IP %></p>
-                        Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la internet.
-                        De
-                        la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la comenzi
-                        de
-                        peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau la
-                        numărul de telefon afișat mai jos.
+                            <button type="button" class="btn btn-primary btn-lg">Stil-1-mare</button>
+                            <p>IP: <%- locals.IP %></p>
+                            Bună ziua! Aici veți găsi toate produsele de care aveți nevoie pentru a vă conecta la
+                            internet.
+                            De
+                            la cabluri, adaptoare, până la echipamente de rețelistică. Transportul este gratuit la
+                            comenzi
+                            de
+                            peste 50 de lei. Pentru orice nelămurire, nu ezitați să ne contactați la adresa de email sau
+                            la
+                            numărul de telefon afișat mai jos.
                     </div>
                     <div class="animated-icon">
                         <i class="fas fa-star fa-beat-fade"></i>
@@ -169,19 +172,18 @@
                     <li>Oferte cu durată limitată la produse populare</li>
                 </ul>
                 <div id="container-iframe">
+                    <iframe name="ifr-video" width="560" height="315"
+                        src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                     <div class="taburi-iframe">
                         <a href="https://www.youtube.com/embed/f3DfJxvkN-8?si=OVqlux-s3FUX_2bC" target="ifr-video"
-                            title="Airpods 2 Pro"> Airpods 2 Pro</a>
+                            title="Airpods 2 Pro">Airpods 2 Pro</a>
                         <a href="https://www.youtube.com/embed/YmwskGLycHo?si=jr5eqxiZDDKsJVch" target="ifr-video"
                             title="iPhone 15">iPhone 15</a>
                         <a href="https://www.youtube.com/embed/XaqOejIaFgM?si=Ub0-GC0u8UDje5kL" target="ifr-video"
                             title="Galaxy S24">Galaxy S24</a>
                     </div>
-                    <iframe name="ifr-video" width="560" height="315"
-                        src="https://www.youtube.com/embed/Ex6Cv5DFzOM?si=qyXkvhKPg8PxAJJS" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
                 </div>
             </section>
 
@@ -209,7 +211,7 @@
             </section>
         </main>
         <hr>
-            <p>HR TEST</p>
+        <p>HR TEST</p>
         <hr>
         <div id="text">
             Text cu reflexie
@@ -220,9 +222,9 @@
         <section id="galerie-statica">
             <h2>Galerie</h2>
             <div id="grid-galerie">
-                <% var vLuni=["ianuarie", "februarie" , "martie" , "aprilie" , "iunie" , "iulie" ]; var d=new Date(); 
-                var lunaCurenta=vLuni[d.getMonth()]; for (let imag of locals.imagini) { if (imag?.luni?.includes(lunaCurenta)) {
-                    %>
+                <% var vLuni=["ianuarie", "februarie" , "martie" , "aprilie" , "iunie" , "iulie" ]; var d=new Date();
+                    var lunaCurenta=vLuni[d.getMonth()]; for (let imag of locals.imagini) { if
+                    (imag?.luni?.includes(lunaCurenta)) { %>
                     <figure>
                         <picture>
                             <source srcset="<%= imag.fisier_mediu %>" media="(max-width:1200px)" />
