@@ -26,17 +26,17 @@
 	</head>
 	<body class="container">
 		<header>
-			<%- include("../fragmente/header") %>
+			<%- include("../fragmente/header.ejs") %>
 		</header>
 		<main>
 			<% if(locals.utilizator) { %>
 			<section>
 				<h2>Profil</h2>
-                <p>Mănânci prea multe prajituri și știi și tu asta!</p>
+                <p>SICRIE SICRIEEEEEEEEEE AVEM SICRIEEEEEEE</p>
 				<p><%= locals.raspuns %></p>
 				<img src="/<%- locals.utilizator.poza%>" alt="nu ati incarcat poza de profil" />
 			</section>
-			<%- include("../fragmente/formular",{action:"/profil"}) %>
+			<%- include("../fragmente/formular.ejs",{action:"/profil"}) %>
 
 		<% } else { %>
 			<p>Nu sunteti logat</p>
@@ -44,6 +44,6 @@
 		<p><%- locals.mesaj %></p>
 		
 		</main>	
-	<%- include("../fragmente/footer") %>
+	<%- include("../fragmente/footer.ejs") %>
 	</body>
 </html>

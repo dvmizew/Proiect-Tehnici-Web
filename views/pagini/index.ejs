@@ -199,6 +199,11 @@
             <section id="lista-useri">
                 <h2>Useri Online</h2>
                 <% include("../fragmente/useri-online.ejs") %>
+                <%- include("../fragmente/locatie.ejs") %>
+                <%- include("../fragmente/ora-server-client.ejs") %>
+                <div class="container-calendar">
+                    <%- include("../fragmente/evenimente.ejs") %>
+                </div>
             </section>
 
             <section id="stats">
@@ -211,16 +216,26 @@
             </section>
         </main>
         <hr>
-        <p>HR TEST</p>
-        <hr>
+        <br>
+        <br>
         <div id="text">
             Text cu reflexie
             <div id="text-reflectat">Text cu reflexie</div>
         </div>
         <br>
         <div class="efect-css-duotone"></div>
+        <section id="galerie-dinamica">
+            <h2>Galerie dinamica</h2>
+            <div id="grid-galerie">
+                <% for (let imag of locals.imagini) { %>
+                    <figure>
+                        <img src="<%= imag.fisier %>" alt="<%= imag.descriere %>">
+                        <figcaption><%= imag.descriere %></figcaption>
+                    </figure>
+                <% } %>
+            </div>
+        </section>
         <section id="galerie-statica">
-            <h2>Galerie</h2>
             <div id="grid-galerie">
                 <% var vLuni=["ianuarie", "februarie" , "martie" , "aprilie" , "iunie" , "iulie" ]; var d=new Date();
                     var lunaCurenta=vLuni[d.getMonth()]; for (let imag of locals.imagini) { if
