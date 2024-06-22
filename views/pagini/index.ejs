@@ -199,11 +199,11 @@
             <section id="lista-useri">
                 <h2>Useri Online</h2>
                 <% include("../fragmente/useri-online.ejs") %>
-                <%- include("../fragmente/locatie.ejs") %>
-                <%- include("../fragmente/ora-server-client.ejs") %>
-                <div class="container-calendar">
-                    <%- include("../fragmente/evenimente.ejs") %>
-                </div>
+                    <%- include("../fragmente/locatie.ejs") %>
+                        <%- include("../fragmente/ora-server-client.ejs") %>
+                            <div class="container-calendar">
+                                <%- include("../fragmente/evenimente.ejs") %>
+                            </div>
             </section>
 
             <section id="stats">
@@ -228,33 +228,49 @@
         </div>
         <br>
         <div class="efect-css-duotone"></div>
-        <section id="galerie-dinamica">
-            <h2>Galerie dinamica</h2>
-            <div id="grid-galerie">
-                <% for (let imag of locals.imagini) { %>
+        <section id="galerie-animata">
+            <h2>Galerie Animată</h2>
+            <div class="galerie-animata">
+                <% var zile_saptamana=["duminica", "luni" , "marti" , "miercuri" , "joi" , "vineri" , "sambata" ]; var
+                    d=new Date(); var zi_curenta=zile_saptamana[d.getDay()]; var caleGalerie="resurse/imagini/galerie/"
+                    ; var index=1; for (let imag of locals.imagini) { if (imag?.intervale_zile?.includes(zi_curenta)) {
+                    var indexRoman=convertToRoman(index); %>
                     <figure>
-                        <img src="<%= imag.fisier %>" alt="<%= imag.descriere %>">
-                        <figcaption><%= imag.descriere %></figcaption>
+                        <picture>
+                            <source srcset="<%= caleGalerie + imag.fisier_imagine_mic %>" media="(max-width: 768px)" />
+                            <source srcset="<%= caleGalerie + imag.fisier_imagine_mediu %>"
+                                media="(max-width: 1200px)" />
+                            <img src="<%= caleGalerie + imag.fisier_imagine %>" alt="<%= imag.continut_alternativ %>"
+                                title="<%= imag.descriere_poza %>">
+                        </picture>
                     </figure>
-                <% } %>
+                    <% index++; } } %>
             </div>
         </section>
         <section id="galerie-statica">
+            <h2>Galerie Statică</h2>
             <div id="grid-galerie">
-                <% var vLuni=["ianuarie", "februarie" , "martie" , "aprilie" , "iunie" , "iulie" ]; var d=new Date();
-                    var lunaCurenta=vLuni[d.getMonth()]; for (let imag of locals.imagini) { if
-                    (imag?.luni?.includes(lunaCurenta)) { %>
-                    <figure>
-                        <picture>
-                            <source srcset="<%= imag.fisier_mediu %>" media="(max-width:1200px)" />
-                            <img src="<%= imag.fisier %>" alt="prajituri">
-                        </picture>
-                        <figcaption>
-                            <%= imag.descriere%>
-                        </figcaption>
-                    </figure>
-                    <% } %>
-                        <% } %>
+                <% function convertToRoman(num) { const romanNumerals=["i", "ii" , "iii" , "iv" , "v" , "vi" , "vii"
+                    , "viii" , "ix" , "x" , "xi" , "xii" ,"xiii", "xiv" , "xv" ]; if (num>= 1 && num <=
+                        romanNumerals.length) { return romanNumerals[num - 1]; } else { return num.toString(); } } var
+                        zile_saptamana=["duminica", "luni" , "marti" , "miercuri" , "joi" , "vineri" , "sambata" ]; var
+                        d=new Date(); var zi_curenta=zile_saptamana[d.getDay()]; var
+                        caleGalerie="Resurse/Imagini/galerie/" ; var index=1; for (let imag of locals.imagini) { if
+                        (imag?.intervale_zile?.includes(zi_curenta)) { var indexRoman=convertToRoman(index); %>
+                        <figure>
+                            <picture>
+                                <source srcset="<%= caleGalerie + imag.fisier_imagine_mic %>"
+                                    media="(max-width: 768px)" />
+                                <source srcset="<%= caleGalerie + imag.fisier_imagine_mediu %>"
+                                    media="(max-width: 1200px)" />
+                                <img src="<%= caleGalerie + imag.fisier_imagine %>"
+                                    alt="<%= imag.continut_alternativ %>" title="<%= imag.descriere_poza %>">
+                            </picture>
+                            <figcaption>
+                                <%= indexRoman + '. ' + imag.descriere_poza %>
+                            </figcaption>
+                        </figure>
+                        <% index++; } } %>
             </div>
         </section>
         <h2>Videoclip</h2>

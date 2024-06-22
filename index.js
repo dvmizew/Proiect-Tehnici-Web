@@ -168,7 +168,7 @@ async function obtineUtilizatoriOnline() {
 //--------------------------------------locatie---------------------------------------
 async function obtineLocatie() {
     try {
-        const response = await fetch('https://secure.geobytes.com/GetCityDetails?key=7c756203dbb38590a66e01a5a3e1ad96&fqcn=109.99.96.15'); 
+        const response = await fetch('https://secure.geobytes.com/GetCityDetails?key=7c756203dbb38590a66e01a5a3e1ad96&fqcn=109.99.96.15');
         // sa imi fac cont ca sa nu pice cheia
         const obiectLocatie = await response.json();
         console.log(obiectLocatie);
@@ -281,8 +281,8 @@ app.post("/produse_cos", function (req, res) {
 cale_qr = __dirname + "/resurse/imagini/qrcode";
 if (fs.existsSync(cale_qr))
     fs.rmSync(cale_qr, { force: true, recursive: true });
-    fs.mkdirSync(cale_qr);
-    client.query("select id from products", function (err, rez) {
+fs.mkdirSync(cale_qr);
+client.query("select id from products", function (err, rez) {
     for (let prod of rez.rows) {
         let cale_prod = obGlobal.protocol + obGlobal.numeDomeniu + "/produs/" + prod.id;
         //console.log(cale_prod);
@@ -364,6 +364,21 @@ app.post("/cumpara", function (req, res) {
         res.send("Nu puteti cumpara daca nu sunteti logat sau nu aveti dreptul!");
     }
 });
+
+app.get("/grafice", function (req, res) {
+    if (!(req?.session?.utilizator && req.utilizator.areDreptul(Drepturi.vizualizareGrafice))) {
+        afisareEroare(res, 403);
+        return;
+    }
+    res.render("pagini/grafice");
+
+})
+
+app.get("/update_grafice", function (req, res) {
+    obGlobal.bdMongo.collection("facturi").find({}).toArray(function (err, rezultat) {
+        res.send(JSON.stringify(rezultat));
+    });
+})
 
 // ----------------------------------Utilizatori-------------------------------
 
@@ -776,10 +791,10 @@ function initImagini() {
 initImagini();
 
 function compileazaScss(caleScss, caleCss) {
-    console.log("cale:", caleCss);
+    // console.log("cale:", caleCss);
     if (!caleCss) {
         let numeFisExt = path.basename(caleScss);
-        let numeFis = numeFisExt.split(".")[0];   /// "a.scss"  -> ["a","scss"]
+        let numeFis = numeFisExt.split(".")[0]; /// "a.scss"  -> ["a","scss"]
         caleCss = numeFis + ".css";
     }
 
@@ -794,10 +809,21 @@ function compileazaScss(caleScss, caleCss) {
     }
 
     let numeFisCss = path.basename(caleCss);
+    let numeFisCssBackup = numeFisCss.split(".")[0];
     if (fs.existsSync(caleCss)) {
-        fs.copyFileSync(caleCss, path.join(obGlobal.folderBackup, "resurse/css", numeFisCss))// +(new Date()).getTime()
+        fs.copyFileSync(
+            caleCss,
+            path.join(
+                caleBackup,
+                numeFisCssBackup +
+                "_" +
+                new Date().getTime() +
+                "." +
+                numeFisCss.split(".")[1]
+            )
+        );
     }
-    rez = sass.compile(caleScss, { "sourceMap": true });
+    rez = sass.compile(caleScss, { sourceMap: true });
     fs.writeFileSync(caleCss, rez.css);
     //console.log("Compilare SCSS",rez);
 }
@@ -807,8 +833,51 @@ vFisiere = fs.readdirSync(obGlobal.folderScss);
 for (let numeFis of vFisiere) {
     if (path.extname(numeFis) == ".scss") {
         compileazaScss(numeFis);
+        stergeFisiereBackup();
     }
 }
+
+function stergeFisiereBackup() {
+    let caleBackup = path.join(obGlobal.folderBackup, "resurse/css");
+    fs.readdir(caleBackup, function (err, files) {
+        if (err) {
+            console.error(
+                "Nu s-au putut sterge fisiere vechi din backup!",
+                err
+            );
+        } else {
+            files.forEach(function (file, index) {
+                var fisierDeSters = path.join(caleBackup, file);
+                fs.stat(fisierDeSters, function (error, stat) {
+                    if (error) {
+                        console.error(
+                            "Nu s-au putut citi date despre fisier!",
+                            error
+                        );
+                        return;
+                    }
+                    var numarDeMinuteTrecute =
+                        (new Date() - stat.birthtime) / (1000 * 60);
+                    if (numarDeMinuteTrecute >= 30) {
+                        fs.unlink(fisierDeSters, function (deleteError) {
+                            if (deleteError && deleteError.code == "ENOENT") {
+                                console.info("Fisierul nu exista.");
+                            } else if (deleteError) {
+                                console.error(
+                                    "O eroare a intervenit la stergerea fisierului."
+                                );
+                            } else {
+                                console.info("Fisier sters.");
+                            }
+                        });
+                    }
+                });
+            });
+        }
+    });
+}
+
+setInterval(stergeFisiereBackup, 30 * 60 * 1000);
 
 fs.watch(obGlobal.folderScss, function (eveniment, numeFis) {
     console.log(eveniment, numeFis);
