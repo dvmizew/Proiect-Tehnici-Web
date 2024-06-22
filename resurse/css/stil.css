@@ -28,7 +28,7 @@ body.dark {
     --culoare-rosu: rgb(196, 1, 1);
     --culoare-box-shadow: rgba(0, 0, 0, 0.1);
     background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
-
+    color: var(--culoare-text);
 }
 
 .section {
