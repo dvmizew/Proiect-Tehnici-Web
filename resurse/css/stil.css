@@ -16,6 +16,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body.dark {
+    --culoare-text: #DCDCDC;
+    --culoare-border: #FF6347;
+    --culoare-highlight: #FF6347;
+    --culoare-background-1: #2b2b2b;
+    --culoare-background-2: #FF6347;
+    --culoare-background-3: #FF4500;
+    --culoare-background-4: #FF7F50;
+    --culoare-background-5: #FFA500;
+    --culoare-rosu: rgb(196, 1, 1);
+    --culoare-box-shadow: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
+
+}
+
 .section {
     transition: transform 0.3s ease;
     background-color: var(--culoare-background-1);

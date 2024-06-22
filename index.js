@@ -793,8 +793,6 @@ function compileazaScss(caleScss, caleCss) {
         fs.mkdirSync(caleBackup, { recursive: true });
     }
 
-    // la acest punct avem cai absolute in caleScss si  caleCss
-    //TO DO
     let numeFisCss = path.basename(caleCss);
     if (fs.existsSync(caleCss)) {
         fs.copyFileSync(caleCss, path.join(obGlobal.folderBackup, "resurse/css", numeFisCss))// +(new Date()).getTime()
@@ -843,6 +841,10 @@ app.post('/mesaj', function (req, res) {
         res.send("ok");
     });
 });
+
+s_port = process.env.PORT || 5001;
+server.listen(s_port);
+console.log("Serverul a pornit pe portul" + s_port);
 
 app.listen(8080);
 console.log("Serverul a pornit");
