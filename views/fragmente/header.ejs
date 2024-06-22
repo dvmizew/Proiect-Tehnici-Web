@@ -40,6 +40,13 @@
             </li>
             <li><a href="/cos-virtual">Coș</a></li>            
             <li><a href="/contact">Contact</a></li>
+            <li><a href="/index#comanda">FAQ</a>
+                <% if(locals.utilizator) { %>
+                <ul class="submenu">
+                    <li><a href="/chat">Scrie-ne</a></li>
+                </ul>
+                <% } %>
+            </li>
             <%- include("submeniu-administrare.ejs") %>
             <%- include("submeniu-utilizator-logat.ejs") %>
         </ul>

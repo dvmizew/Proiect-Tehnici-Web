@@ -593,9 +593,6 @@ app.post("/contact", function (req, res) {
 
 //http://${Utilizator.numeDomeniu}/cod/${utiliz.username}/${token}
 app.get("/cod/:username/:token", function (req, res) {
-    /*TO DO parametriCallback: cu proprietatile: request (req) si token (luat din parametrii cererii)
-        setat parametriCerere pentru a verifica daca tokenul corespunde userului
-    */
     console.log(req.params);
     try {
         var parametriCallback = {
@@ -824,6 +821,28 @@ fs.watch(obGlobal.folderScss, function (eveniment, numeFis) {
         }
     }
 })
+
+// -------------------------------------------------------------------CHAT---------------------------------------------------------------------------
+const http = require('http')
+const socket = require('socket.io');
+const server = new http.createServer(app);
+var io = socket(server);
+io = io.listen(server);
+
+io.on("connection", (socket) => {
+    console.log("Conectare!");
+    socket.on('disconnect', () => { conexiune_index = null; console.log('Deconectare') });
+});
+
+app.post('/mesaj', function (req, res) {
+    var form = new formidable.IncomingForm();
+    form.parse(req, function (err, fields, files) {
+        console.log("primit mesaj");
+        console.log(fields);
+        io.sockets.emit('mesaj_nou', fields.nume, fields.culoare, fields.mesaj, fields.font);
+        res.send("ok");
+    });
+});
 
 app.listen(8080);
 console.log("Serverul a pornit");

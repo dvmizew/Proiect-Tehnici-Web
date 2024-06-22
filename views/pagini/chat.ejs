@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <%- include("../fragmente/head") %>
+        <%- include("../fragmente/header") %>
+            <title>Chat</title>
+            <% if(locals.utilizator) { %>
+                <style>
+                    #mesaje_chat {
+                        border: 1px solid black;
+                        height: 200px;
+                        overflow: auto;
+                        width: 500px;
+                    }
+                </style>
+                <script type="text/javascript" src="/node_modules/socket.io/client-dist/socket.io.js"></script>
+                <script> port = 8080; </script>
+                <script>socketUrl = "../../";
+                    if (document.location.href.indexOf("localhost") != -1) {
+                        socketUrl = "http://127.0.0.1:" + port;
+                    }
+                    // const socket = io(socketUrl,{reconnect: true});  
+                    socket = io();
+                    socket.on("mesaj_nou", function (nume, culoare, mesaj, font) {
+                        var chat = document.getElementById("mesaje_chat");
+                        var ora = new Date().toLocaleTimeString();
+
+                        var mesajFormatat = `(${ora}) <span class="user" style="font-style: italic; text-decoration: underline;">${nume}</span>: <span class="ceva" style='font-size:${font}px !important; color:${culoare};'>${mesaj}</span>`;
+
+                        chat.innerHTML += `<p>${mesajFormatat}</p>`;
+                        chat.scrollTop = chat.scrollHeight;
+                    });
+
+                    function trimite() {
+                        var culoare = document.getElementById("culoare").value;
+                        var nume = document.getElementById("nume").innerHTML;
+                        var mesaj = document.getElementById("mesaj").value;
+                        var font = document.getElementById("font").value;
+
+                        fetch("/mesaj", {
+                            method: "POST",
+                            headers: { 'Content-Type': 'application/json' },
+
+                            mode: 'cors',
+                            cache: 'default',
+                            body: JSON.stringify({
+                                culoare: culoare,
+                                nume: nume,
+                                mesaj: mesaj,
+                                font: font
+                            })
+                        })
+                    }
+                </script>
+</head>
+
+<body>
+    <style>
+        .user {
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+    <style>
+        #nume {
+            display: none;
+        }
+    </style>
+    <div id="chat">
+        <div id="mesaje_chat"></div>
+        <label>
+            <div id="nume"><%-locals.utilizator.username %></div>
+        </label><br>
+        <label>Mesaj: <textarea class="form-control" id="mesaj" name="mesaj"></textarea></label><br />
+        <label>Culoare: <select id="culoare" name="culoare">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+            </select>
+        </label><br /><br />
+        <label>Font: <input type="range" id="font" value="12" min="12" max="16"></label><br>
+        <button class="btn btn-primary" onclick="trimite()">Trimite</button><br><br>
+    </div>
+    <% } else {%>
+        <%afisareEroare(res,404, "ceva" );}%>
+            <%- include("../fragmente/footer") %>
+</body>
+
+</html>
