@@ -7,6 +7,9 @@
         <meta name="description"
             content="Magazin de conectica, Adaptoare, Retelistica. Transport Gratuit la comenzi de peste 50 de lei.">
         <link rel="stylesheet" href="/resurse/css/produs.css" type="text/css" />
+        <link rel="stylesheet" href="/resurse/css/stil.css">
+        <link rel="stylesheet" href="/resurse/css/general.css">
+        <link rel="stylesheet" href="/resurse/css/nav.css">
         <% include("../fragmente/head.ejs") %>
         <script type="text/javascript" src="/resurse/js/produse.js"></script>
 </head>
@@ -19,11 +22,6 @@
                     <h3><span class="nume"><%- locals.prod.nume %></span></h3>
                     <p>Pret: <span class="pret"><%- locals.prod.pret %> </span></p>
                     <p>Descriere: <span class="descriere"><%- locals.prod.descriere %> </span></p>
-                    <p>Ingrediente: <span class="ingrediente"><%- locals.prod.ingrediente %> </span></p>
-                    <p>Calorii: <span class="calorii"><%- locals.prod.calorii %> </span></p>
-                    <p>Gramaj: <span class="gramaj"><%- locals.prod.gramaj %> </span></p>
-                    <p>Categorie: <span class="categorie"><%- locals.prod.categorie %> </span></p>
-                    <p>Pentru diabetici: <span class="pt_diabetici"><%- locals.prod.pt_diabetici %> </span></p>
                     <p>Data adăugare: <span class="categorie"><%- locals.prod.data_adaugare %> </span></p>
                     <figure class="imag-produs">
                         <img src="/resurse/imagini/produse/<%- locals.prod.imagine %>"

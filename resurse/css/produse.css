@@ -1,3 +1,21 @@
+body {
+    --culoare-text: #333333;
+    --culoare-border: #FFA500;
+    --culoare-highlight: #FF7F50;
+    --culoare-background-1: #F2F2F2;
+    --culoare-background-2: #FFA500;
+    --culoare-background-3: #FF7F50;
+    --culoare-background-4: #FF6347;
+    --culoare-background-5: #FF4500;
+    --culoare-rosu: rgb(196, 1, 1);
+    --culoare-box-shadow: rgba(0, 0, 0, 0.1);
+    --dim-spatiere: 20px;
+    padding-left: var(--dim-spatiere);
+    padding-right: var(--dim-spatiere);
+    background: linear-gradient(to bottom, var(--culoare-background-1), var(--culoare-background-2));
+    font-family: 'Roboto', sans-serif;
+}
+
 main {
     --padd-main: 1rem;
     padding-left: var(--padd-main);
