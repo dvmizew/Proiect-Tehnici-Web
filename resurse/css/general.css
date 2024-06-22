@@ -333,32 +333,37 @@ hr {
     background-color: gray;
 }
 
-/* efect-css-reflexie-text */
-#text {
-    position: relative;
-    font-size: 50px;
-    line-height: 50px;
-    font-weight: bold;
+/* efect-css-reflexie-text v2 */
+#reflexie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6em;
+    color: var(--culoare-deschisa);
+    transition: all 0.5s linear;
 }
 
-#text-reflectat {
-    position: absolute;
-    right: 0;
-    top: 0;
-    left: 0;
-    transform-origin: right top;
-    transform: scaleY(-1) translateX(10%);
-    opacity: 0.55;
-    font-size: 50px;
-    line-height: 50px;
-    font-weight: bold;
-    pointer-events: none;
-    transition: color 0.3s;
+#reflexie:hover {
+    color: var(--culoare-inchisa);
 }
 
-#text:hover,
-#text-reflectat:hover {
-    color: var(--culoare-rosu);
+#text-reflectat1,
+#text-reflectat2 {
+    flex: 1;
+    font-size: 40px;
+}
+
+#text-reflectat1 {
+    text-align: right;
+    margin-right: 0;
+    transform-origin: top right;
+    transform: skew(20deg) rotateZ(-25deg);
+}
+
+#text-reflectat2 {
+    margin-left: 0;
+    transform-origin: top left;
+    transform: rotateY(180deg) skew(-20deg) rotateZ(-28deg) translate(-55%, -70%);
 }
 
 #grid-galerie {
