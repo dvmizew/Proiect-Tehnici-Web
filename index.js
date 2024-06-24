@@ -450,7 +450,7 @@ app.post("/inregistrare", function (req, res) {
 
 app.post("/login", function (req, res) {
     var username;
-    console.log("ceva");
+    console.log("ne-am logat");
     var formular = new formidable.IncomingForm()
     formular.parse(req, function (err, campuriText, campuriFisier) {
         var parametriCallback = {
