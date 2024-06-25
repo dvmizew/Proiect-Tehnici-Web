@@ -28,11 +28,11 @@ var client = new Client({
 client.connect();
 
 client.query("select * from unnest(enum_range(null::categorie_produs))", function (err, rez) {
-    console.log(rez);
+    // console.log(rez);
 })
 
 client.query("select * from products", function (err, rez) {
-    console.log(rez);
+    // console.log(rez);
 });
 
 obGlobal = {
@@ -148,7 +148,7 @@ function stergeAccesariVechi() {
         conditiiAnd: ["now() - data_accesare >= interval '10 minutes' "]
     },
         function (err, rez) {
-            console.log(err);
+            //console.log(err);
         })
 }
 stergeAccesariVechi();
@@ -157,7 +157,7 @@ setInterval(stergeAccesariVechi, 10 * 60 * 1000);
 async function obtineUtilizatoriOnline() {
     try {
         var rez = await client.query("select username, nume, prenume from utilizatori where id in (select distinct user_id from accesari where now()-data_accesare <= interval '5 minutes')");
-        console.log(rez.rows);
+        //console.log(rez.rows);
         return rez.rows
     } catch (err) {
         console.error(err);
@@ -171,7 +171,7 @@ async function obtineLocatie() {
         const response = await fetch('https://secure.geobytes.com/GetCityDetails?key=7c756203dbb38590a66e01a5a3e1ad96&fqcn=109.99.96.15');
         // sa imi fac cont ca sa nu pice cheia
         const obiectLocatie = await response.json();
-        console.log(obiectLocatie);
+        //console.log(obiectLocatie);
         locatie = obiectLocatie.geobytescountry + " " + obiectLocatie.geobytesregion
         return locatie;
     } catch (error) {
@@ -227,7 +227,7 @@ app.get("/favicon.ico", function (req, res) {
 // -----------------------------------Produse------------------------------
 
 app.get("/produse", function (req, res) {
-    console.log(req.query)
+    //console.log(req.query)
     var conditieQuery = "";
     if (req.query.tip) {
         conditieQuery = ` where tip_produs='${req.query.tip}'`
@@ -235,7 +235,7 @@ app.get("/produse", function (req, res) {
     client.query("select * from unnest(enum_range(null::categorie_produs))", function (err, rezOptiuni) {
         client.query(`select * from products ${conditieQuery}`, function (err, rez) {
             if (err) {
-                console.log(err);
+                // console.log(err);
                 afisareEroare(res, 2);
             }
             else {
@@ -255,6 +255,29 @@ app.get("/produs/:id", function (req, res) {
             res.render("pagini/produs", { prod: rez.rows[0] });
         }
     });
+})
+
+app.get('/jucarii', async (req, res) => {
+    try {
+        const result = await client.query('SELECT * FROM jucarii');
+        const jucarii = result.rows;
+        res.render('pagini/jucarii', { jucarii: jucarii });
+    } catch (err) {
+        console.error('Eroare la citirea datelor din tabelul jucarii', err);
+        res.status(500).send('Eroare la citirea datelor');
+    }
+});
+
+app.get("/jucarii/:id", function (req, res) {
+    client.query(`select * from jucarii where id = ${req.params.id}`, function (err, rez) {
+        if (err) {
+            console.log(err);
+            afisareEroare(res, 2);
+        }
+        else {
+            res.render("pagini/jucarii", { prod: rez.rows[0] });
+        }
+    })
 })
 
 // ---------------------------------  cos virtual --------------------------------------
@@ -786,7 +809,7 @@ function initImagini() {
         imag.fisier_mediu = path.join("/", obGlobal.obImagini.cale_galerie, "mediu", numeFis + ".webp");
         imag.fisier = path.join("/", obGlobal.obImagini.cale_galerie, imag.fisier);
     }
-    console.log(obGlobal.obImagini);
+    // console.log(obGlobal.obImagini);
 }
 initImagini();
 
@@ -861,13 +884,13 @@ function stergeFisiereBackup() {
                     if (numarDeMinuteTrecute >= 30) {
                         fs.unlink(fisierDeSters, function (deleteError) {
                             if (deleteError && deleteError.code == "ENOENT") {
-                                console.info("Fisierul nu exista.");
+                                // console.info("Fisierul nu exista.");
                             } else if (deleteError) {
                                 console.error(
                                     "O eroare a intervenit la stergerea fisierului."
                                 );
                             } else {
-                                console.info("Fisier sters.");
+                                //console.info("Fisier sters.");
                             }
                         });
                     }

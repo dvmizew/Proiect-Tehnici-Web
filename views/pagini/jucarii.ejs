@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jucarii</title>
+    <script src="/resurse/js/jucarii.js"></script>
+    <script src="/resurse/js/trimitere-email.js"></script>
+    <link rel="stylesheet" href="/resurse/css/jucarii.css">
+</head>
+
+<body>
+    <main>
+        <section id="jucarii">
+            <h2>Jucării</h2>
+
+            <p id="jucarii-sterse"></p>
+
+            <form id="sortare-filtrare">
+                <label for="sortare">Sortare:</label>
+                <select id="sortare" name="sortare">
+                    <option value="ascendent">Ascendent</option>
+                    <option value="descendent">Descendent</option>
+                </select>
+                <button type="button" id="sorteaza">Sortează</button>
+
+                <label for="filtru-pret">Filtrează după preț:</label>
+                <input type="checkbox" id="filtru-pret" name="filtru-pret">
+                <button type="button" id="filtreaza">Filtrează</button>
+            </form>
+
+            <div class="grid-jucarii">
+                <% if (jucarii && jucarii.length > 0) { %>
+                    <% jucarii.forEach(function(jucarie) { %>
+                        <article class="jucarie" data-culori="<%- jucarie.culori.length %>" data-pret="<%- jucarie.pret %>"
+                            data-id="<%- jucarie.id %>">
+                            <h2 class="titlu"><a href="/produs/<%- jucarie.id %>"><%- jucarie.nume %></a></h2>
+                            <p>Varsta minima recomandata: <%- jucarie.varsta_minima %> ani</p>
+                            <% if (jucarie.varsta_minima >= 0 && jucarie.varsta_minima <= 6) { %>
+                                <p class="potrivit-gradinita">Potrivit pentru grădiniță</p>
+                            <% } %>
+                            <p>Culori disponibile:</p>
+                            <ol class="culori-lista">
+                                <% jucarie.culori.sort((a, b) => b.length - a.length).forEach(function(culoare) { %>
+                                    <li><%- culoare %></li>
+                                <% }); %>
+                            </ol>
+                            <div class="info-prod">
+                                <p class="pret">
+                                    Pret: <span class="val-pret"><input type="checkbox"
+                                            value="<%- jucarie.pret %>"> <time
+                                            datetime="<%- jucarie.data_adaugare %>"><%- typeof formatDate === 'function' ? formatDate(jucarie.data_adaugare) : '' %></time></span>
+                                </p>
+                            </div>
+                            <figure>
+                                <a href="/produs/<%- jucarie.id %>"><img src="<%- jucarie.imagine %>"
+                                        alt="[Imagine <%- jucarie.nume %>]" /></a>
+                            </figure>
+                            <label class="selecteaza-cos">
+                                Selectează:<br>
+                                <input type="checkbox" class="select-cos" value="<%- jucarie.id %>"
+                                    autocomplete="off">
+                            </label>
+                            <button type="button" class="sterge" data-id="<%- jucarie.id %>">Sterge</button>
+                            <% if (typeof formatDate === 'function') { %>
+                                <p>Data adăugării:
+                                    <time datetime="<%- jucarie.data_adaugare %>">
+                                        <%- typeof formatDate === 'function' ? formatDate(jucarie.data_adaugare) : '' %>
+                                    </time>
+                                </p>
+                            <% } %>
+                        </article>
+                    <% }); %>
+                <% } else { %>
+                    <p>Nu există jucării disponibile.</p>
+                <% } %>
+            </div>
+        </section>
+    </section>
+    <form id="form-trimitere-email">
+        <label for="select-nume">Selectați numele pentru care să se trimită email:</label><br>
+        <select id="select-nume" name="select-nume" multiple>
+            <option value="Irina Ciocan">Irina Ciocan</option>
+            <option value="Irina Ciocan (gmail)">Irina Ciocan (gmail)</option>
+            <option value="Prof Prof Prof">Prof Prof Prof</option>
+        </select><br><br>
+        <button type="button" id="trimite-email">Trimite email</button>
+    </form>
+
+    <p id="rezultat-trimitere-email"></p>
+    </main>
+    <!-- <%- include("../fragmente/footer") %> -->
+</body>
+
+</html>

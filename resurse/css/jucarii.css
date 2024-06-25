@@ -1,0 +1,85 @@
+.culori-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.culori-lista li {
+    margin-bottom: 5px;
+}
+
+.culori-lista li::before {
+    content: "○";
+    display: inline-block;
+    margin-right: 5px;
+    color: red;
+}
+
+.grid-jucarii {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px 5px;
+}
+
+.grid-jucarii article:nth-child(8n + 1),
+.grid-jucarii article:nth-child(8n + 5) {
+    background-color: lightblue;
+}
+
+.grid-jucarii article:nth-child(8n + 2),
+.grid-jucarii article:nth-child(8n + 4),
+.grid-jucarii article:nth-child(8n + 7) {
+    background-color: lightgreen;
+}
+
+.grid-jucarii article:nth-child(8n + 3),
+.grid-jucarii article:nth-child(8n + 6),
+.grid-jucarii article:nth-child(8n + 8) {
+    background-color: lightsalmon;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-jucarii {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .jucarie .pret {
+        background-color: white;
+        transition: none;
+    }
+}
+
+.pret {
+    transition: background-color 3s ease;
+}
+
+.titlu:hover + .info-prod .pret {
+    background-color: red;
+    transition: background-color 1s ease;
+}
+
+.titlu:hover + .info-prod .pret:hover {
+    background-color: blue;
+    transition: background-color 1s ease; 
+}
+
+.sterge {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sterge:hover {
+    background-color: #da190b;
+}
+
+#jucarii-sterse {
+    margin-top: 20px;
+}
