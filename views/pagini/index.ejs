@@ -255,7 +255,7 @@
                         romanNumerals.length) { return romanNumerals[num - 1]; } else { return num.toString(); } } var
                         zile_saptamana=["duminica", "luni" , "marti" , "miercuri" , "joi" , "vineri" , "sambata" ]; var
                         d=new Date(); var zi_curenta=zile_saptamana[d.getDay()]; var
-                        caleGalerie="Resurse/Imagini/galerie/" ; var index=1; for (let imag of locals.imagini) { if
+                        caleGalerie="resurse/imagini/galerie/" ; var index=1; for (let imag of locals.imagini) { if
                         (imag?.intervale_zile?.includes(zi_curenta)) { var indexRoman=convertToRoman(index); %>
                         <figure>
                             <picture>
